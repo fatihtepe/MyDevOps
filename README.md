@@ -17,7 +17,7 @@ All about DevOps!
 
 [AWS Readings](./devops-readings/aws_readings.md)
 
-[Maven Readings](./devops-readings/maven_readings.md))
+[Maven Readings](./devops-readings/maven_readings.md)
 
 [Terminology](./devops-readings/terminology.md)
 
