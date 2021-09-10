@@ -79,3 +79,5 @@ The Terraform Associate certification is for Cloud Engineers specializing in ope
 [The Essential Terraform Cheatsheet](https://justinoconnor.codes/2021/09/06/the-essential-terraform-cheat-sheet/)
 
 One of the best things about being a digital transformation leader in the cloud space is the humbling experience of working with so many smart, talented, creative, driven, and hard-working engineers. Over the past several years, our team has worked together to go from mostly manual and error prone deployments to fully automated infrastructure deployments with Terraform for all of our applications.
+
+[Exam Braindumps](https://free-braindumps.com/hashicorp/free-ta-002-p-braindumps.html?p=2)
