@@ -73,3 +73,6 @@ As a technical person, I fetch some regular basis tasks. There are tasks that we
 ## Work smarter, Not harder
 
 [Use a tool like Faker for creating mock data in your database](https://github.com/faker-ruby/faker)
+
+
+updated 091421
