@@ -106,3 +106,5 @@ DevOps and agile methodologies have become industry standard in the software rel
 [DevOps and Databases — The forgotten automation](https://medium.com/devops-dudes/devops-and-databases-the-forgotten-automation-95325b2d3c89)
 
 That part that no one wants to bring up when we talk about DevOps. I know guys, it’s scary. Databases hold all this data in some form of state and well, the entire DevOps ecosystem has built around the premise of stateless applications.
+
+[Devops Interview Questions](https://selfonlinetraining.wordpress.com/devops-interview-questions/)
