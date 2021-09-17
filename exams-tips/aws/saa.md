@@ -1,0 +1,3 @@
+[AWS Solution Architect Associate Certification — Study Notes](https://towardsaws.com/aws-solution-architect-associate-certification-study-notes-c32f50503f8a)
+
+This article provides a last-minute revision summary of major topics for your upcoming AWS Solution Architect Associate certification exam. Use this article to brush up on some of the key concepts which are very much relevant to the certification exam questions. This article will be updated regularly to add more tips as per exams.
