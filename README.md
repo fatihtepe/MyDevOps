@@ -1,11 +1,7 @@
 # DevOps
 All about DevOps!
 
-[Ansible Readings](./devops-readings/ansible_readings.md)
-
-[DevOps Readings](./devops-readings/devops_readings.md)
-
-[Docker Readings](./devops-readings/docker_readings.md)
+[Ansible Readings](./devops-readings/ansible_readings.md) [DevOps Readings](./devops-readings/devops_readings.md) [Docker Readings](./devops-readings/docker_readings.md)
 
 [Jenkins Readings](./devops-readings/jenkins_readings.md)
 
