@@ -23,6 +23,8 @@ All about DevOps!
 
 [Network](./devops-readings/network_readings.md)
 
+[Security](./devops-readings/security_readings.md)
+
 ![cloud](./img/cloud.png)<br>
 
 [YAML Lint](http://www.yamllint.com/)<br>
