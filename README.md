@@ -21,6 +21,8 @@ All about DevOps!
 
 [Terminology](./devops-readings/terminology.md)
 
+[Network](./devops-readings/network_readings.md)
+
 ![cloud](./img/cloud.png)<br>
 
 [YAML Lint](http://www.yamllint.com/)<br>
