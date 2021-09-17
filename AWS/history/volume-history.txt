@@ -1,0 +1,115 @@
+    1  clear
+    2  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+    3  lsblk
+    4  df -h
+    5  clear
+    6  sudo file -s /def/xvdf
+    7  df -h
+    8  lsblk
+    9  sudo file -s /dev/xvdf
+   10  clear
+   11  sudo mkfs -t ext4 /dev/exdf
+   12  sudo mkfs -t ext4 /dev/xvdf
+   13  df -h
+   14  lsblk
+   15  sudo file -s /dev/xvdf
+   16  clear
+   17  cd /mnt
+   18  ls
+   19  ls -l
+   20  pwd
+   21  cd sudo mkdir /mnt/mp1
+   22  cd 
+   23  sudo mkdir /mnt/mp1
+   24  sudo mount /dev/xvdf /mnt/mp1/
+   25  lsblk
+   26  clear
+   27  df -h
+   28  clear
+   29  ls /mnt/mp1
+   30  cd /mnt/mp | sudo touch hello.txt
+   31  cd /mnt/mp1 | sudo touch hello.txt
+   32  ls
+   33  rm -r hello.txt 
+   34  ls
+   35  rm -rf hello.txt 
+   36  cd /mnt/mp1
+   37  sudo touch hello.txt
+   38  ls
+   39  clear
+   40  lsblk
+   41  df -h
+   42  clear
+   43  sudo resize2fs /dev/xvdf
+   44  df -h
+   45  clear
+   46  ls /mnt/mp1
+   47  sudo reboot now
+   48  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+   49  clear
+   50  lsblk
+   51  df -h
+   52  sudo file -s /dev/xvdf
+   53  clear
+   54  sudo mount /dev/xvdf/ /mnt/mp1
+   55  sudo mount /dev/xvdf /mnt/mp1/
+   56  lsblk
+   57  df -h
+   58  clear
+   59  ls
+   60  ls /mnt/mp1
+   61  clear
+   62  lsblk
+   63  df -h
+   64  clear
+   65  lsblk
+   66  df -h
+   67  cleaer
+   68  sudo fdisk -l
+   69  clear
+   70  sudo fdisk /dev/xvdg
+   71  lsblk
+   72  clear
+   73  df -h
+   74  sudo mkfs -t ext4 /dev/xvdg1
+   75  sudo mkfs -t ext4 /dev/xvdg2
+   76  sudo mkdir /mnt/mp2
+   77  sudo mkdir /mnt/mp3
+   78  clear
+   79  sudo mount /dev/xvdg1 /mnt/mp2/
+   80  sudo mount /dev/xvdg2 /mnt/mp3/
+   81  lsblk
+   82  df -h
+   83  clear
+   84  sudo touch /mnt/mp3/helloguys.txt
+   85  ls /mn/mp3
+   86  ls /mnt/mp3
+   87  lsblk
+   88  df -h
+   89  clear
+   90  sudo growpart /dev/xvdg 2
+   91  lsblk
+   92  df -h
+   93  clear
+   94  sudo resize2fs /dev/xvdg2
+   95  lsblk
+   96  df -h
+   97  clear
+   98  ls /mnt/mp3
+   99  clear
+  100  sudo cp /etc/fstab /etc/fstab.bak
+  101  sudo vim /etc/fstab
+  102  sudo mount -a
+  103  lsblk
+  104  df -h
+  105  clear
+  106  sudo mount -a
+  107  df -h
+  108  sudo reboot now
+  109  clear
+  110  lsblk
+  111  df -h
+  112  clear
+  113  ls /mnt/mp1
+  114  ls /mnt/mp3
+  115  history > hist-volume-txt
