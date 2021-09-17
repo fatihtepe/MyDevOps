@@ -1,0 +1,93 @@
+    1  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+    2  traceroute 
+    3  traceroute google.com
+    4  clear
+    5  traceroute google.com
+    6  traceroute clarusway.com
+    7  clear
+    8  ifconfig
+    9  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+   10  iptables
+   11  sudo iptables list
+   12  sudo iptables --list
+   13  clear
+   14  ls
+   15  history
+   16  clear
+   17  ping clarusway.com
+   18  ping -c 3 google.com
+   19  traceroute
+   20  clear
+   21  ping -c 2 google.com
+   22  clear
+   23  arp -a
+   24  clear
+   25  nmap
+   26  sudo install yum nmpa -y
+   27  sudo install yum nmap -y
+   28  sudo install yum nmap
+   29  sudo yum install nmpa
+   30  sudo yum install nmap
+   31  clear
+   32  nmap
+   33  nmap -v -A
+   34  nmap localhost
+   35  clear
+   36  nmap localhost
+   37  clear
+   38  docker ps -a
+   39  netstat -a
+   40  clear
+   41  netstat -s -p ICMP
+   42  netstat -pnltu
+   43  clear
+   44  tcpdump eth0
+   45  clear
+   46  tcpdump
+   47  clear
+   48  sudo yum install tcpdumb 
+   49  sudo yum install tcpdump
+   50* 
+   51  ftp
+   52  clear
+   53  ftp ftp.gnu.org
+   54  ls
+   55  clear
+   56  ls
+   57  open tree.json.gz 
+   58  vim tree.json.gz 
+   59  clear
+   60  ftp.gnu.org
+   61  ftp gnu.org
+   62  ftp ftp.gnu.org
+   63  history
+   64  clear
+   65  ftp
+   66  clear
+   67  telnet
+   68  clear
+   69  ls
+   70  curl clarusway.com
+   71  clear
+   72  curl clarusway.com -o curl.txt
+   73  ls
+   74  vim curl.txt
+   75  clear
+   76  ls
+   77  cat /etc/systemconfig
+   78  cat /etc/systemconfig/network
+   79  cat /etc/sysconfig/network
+   80  clear
+   81  cat etc/hossts
+   82  cat etc/hosts
+   83  cat /etc/hosts
+   84  router
+   85  route
+   86  clear
+   87  route
+   88  clear
+   89  ls
+   90  history > cat 071721-network-history.txt
+   91  history > history.txt
+   92  ls
+   93  history > 071721-network-hiostory.txt
