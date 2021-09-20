@@ -109,3 +109,174 @@
    95  docker container ls
    96  history
 ```
+
+## network
+
+```
+1  ls
+    2  cd composetest/
+    3  ls
+    4  cd code
+    5  cd
+    6  cd composetest/
+    7  ls
+    8  cd code
+    9  ls
+   10  cp app.py ../
+   11  ls
+   12  cd ..
+   13  ls
+   14  clear
+   15  ls
+   16  rm -rf code/
+   17  ls
+   18  docker-compose up
+   19  docker-compose down
+   20  docker-compose up
+   21  sudo systemctl start docker
+   22  cd ..
+   23  sudo yum update -y
+   24  sudo amazon-linux-extras install docker -y
+   25  sudo systemctl start docker
+   26  sudo systemctl enable docker
+   27  sudo systemctl status docker
+   28  sudo usermod -a -G docker ec2-user
+   29  newgrp docker
+   30  docker version
+   31  docker info
+   32  sudo systemctl start docker
+   33  sudo systemctl enable docker
+   34  docker version
+   35  clear
+   36  ls
+   37  cd composetest/
+   38  ls
+   39  docker-compose up
+   40  sudo systemctl enable docker
+   41  sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   42  sudo chmod +x /usr/local/bin/docker-compose
+   43  docker-compose --version
+   44  docker-compose up
+   45  clear
+   46  docker-compose help | less
+   47  docker-compose ps
+   48  claer
+   49  clear
+   50  cd
+   51  clear
+   52  mkdir to-do-api
+   53  cd to-do-api/
+   54  vim requirements.txt
+   55  ls
+   56  cat requirements.txt
+   57  clear
+   58  ls
+   59  docker-compose up -d
+   60  docker container ls
+   61  clear
+   62  claer
+   63  clear
+   64  ls
+   65  docker images
+   66  docker network ls
+   67  curl http://54.91.138.117/todos
+   68  clear
+   69  curl -H "Content-Type: application/json" -X POST -d '{"title":"Get some REST", "description":"REST in Peace"}' http://54.91.138.117/todos
+   70  curl -H "Content-Type: application/json" -X DELETE http://54.91.138.117/todos/1
+   71  curl http://54.91.138.117/todos
+   72  docker-compose down
+   73  docker container ls
+   74  docker network ls
+   75  clear
+   76  cd ..
+   77  cd composetest/
+   78  ls
+   79  docker-compose ps
+   80  docker-compose images
+   81  clear
+   82  docker-compose images
+   83  docker-compose config
+   84  docker-compose up
+   85  docker-compose help | less
+   86  docker-compose ps
+   87  cd composetest/
+   88  docker-compose ps
+   89  docker-compose images
+   90  docker-compose config
+   91  docker-compose ps
+   92  ls
+   93  cd to-do-api/
+   94  docker-compose ps
+   95  cd ../composetest/
+   96  ls
+   97  clear
+   98  docker-compose --version
+   99  docker-compose images
+  100  docker-compose up
+  101  docker-compose down
+  102  docker ps -a
+  103  clear
+  104  docker images
+  105  docker-compose up
+  106  docker-compose down
+  107  docker compose up --build
+  108  docker-compose up --build
+  109  docker-compose down
+  110  docker ps -a
+  111  clear
+  112  cd ../to-do-api/
+  113  docker-compose up -d
+  114  docker image l
+  115  docker container ls
+  116  docker images
+  117  docker network ls
+  118  docker-compose down
+  119  cd ..
+  120  clear
+  121  df -h
+  122  parted 54.91.138.117/dev/xvda1 print
+  123  sudo parted /dev/xvda1 print
+  124  sudo parted /dev/xvda print
+  125  exit
+  126  clear
+  127  systemctl status docker
+  128  clear
+  129  docker network ls
+  130  docker container run -dit --name clarus1st alpine ash
+  131  docker container run -dit --name clarus2nd alpine ash
+  132  clear
+  133  docker ps
+  134  docker network inspect bridge | less
+  135  docker container inspect clarus2nd | grep IPAddress
+  136  docker container attach clarus1st
+  137  ifconfig
+  138  clear
+  139  docker ps -a
+  140  clear
+  141  docker container stop clarus1st clarus2nd
+  142  docker container rm clarus1st clarus2nd
+  143  docker network create --driver bridge clarusnet
+  144  docker network ls
+  145  docker network inspect clarusnet
+  146  docker container run -dit --network clarusnet --name clarus1st alpine ash
+  147  docker container run -dit --network clarusnet --name clarus2nd alpine ash
+  148  docker container run -dit --name clarus3rd alpine ash
+  149  docker container run -dit --name clarus4th alpine ash
+  150  docker network connect clarusnet clarus4th
+  151  clear
+  152  docker container ls
+  153  docker network inspect clarusnet
+  154  docker network inspect bridge
+  155  docker attach clarus1st
+  156  docker container rm clarus1st clarus2nd clarus3rd clarus4th
+  157  docker network rm clarusnet
+  158  docker container run --rm -d -p 8080:80 --name ng nginx
+  159  clear
+  160  ifconfig
+  161  docker container stop my_nginx
+  162  docker container run --rm -it --network none --name nullcontainer alpine
+  163  clear
+  164  docker ps
+  165  docker ps -a
+  166  history
+```
