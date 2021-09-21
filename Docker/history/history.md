@@ -280,3 +280,188 @@
   165  docker ps -a
   166  history
 ```
+
+## 092121 docker
+
+```
+127  docker vesion
+  128  docker version
+  129  clear
+  130  export PS1="\e[1;36m fatihtepePC/\W>>> \$ \e[m "
+  131  clear
+  132  ls
+  133  clear
+  134  docker container run -d ozgurozturknet/adanzyedocker
+  135  docker ps
+  136  docker exect -it 494
+  137  docker exect -it 494 sh
+  138  docker ps
+  139  docker exec it 494 sh
+  140  docker ps -a
+  141  docker exec -it 494 sh
+  142  docker container run -it --name deneme ozgurozturknet/adanzyedocker sh
+  143  docker network ls
+  144  clear
+  145  docker network ls
+  146  docker network ls
+  147  clear
+  148  docker network ls
+  149  ifconfig
+  150  clear
+  151  docker container run -it --deneme1 --net host ozgurozturknet/adanzyedocker sh
+  152  docker container run -it --name deneme1 --net host ozgurozturknet/adanzyedocker sh
+  153  docker container run -it --name deneme35 --net none ozgurozturknet/adanzyedocker sh
+  154  clera
+  155  clear
+  156  docker network ls
+  157  ls
+  158  clear
+  159  ls
+  160  clear
+  161  ls
+  162  clear
+  163  ls
+  164  clear
+  165  docker container run -d -p 8080:80 ozgurozturknet/adanzyedocker
+  166  docker ps
+  167  ls
+  168  ls -al
+  169  clear
+  170  docker ps
+  171  docker container run -d --name websunucu1 ozgurozturknet/adanzyedocker
+  172  docker container run -d --name database1 ozgurozturknet/adanzyedocker sh
+  173  docker container run -it -d --name database1 ozgurozturknet/adanzyedocker sh
+  174  docker container ps
+  175  docker container run -it -d --name database21 ozgurozturknet/adanzyedocker sh
+  176  docker container run -it --name database ozgurozturknet/adanzyedocker sh
+  177  docker ps -a
+  178  docker container prune
+  179  docker ps -a
+  180  docker image prune
+  181  docker ps -a
+  182  docker container rm 1b0 16f 9f9 494
+  183  docker container rm -f 1b0 16f 9f9 494
+  184  clear
+  185  docker network create kopru1
+  186  docker network ls
+  187  docker network inspect kopru1
+  188  docker container run -dit --name websunucu --net kopru1 ozgurozturknet/adanzyedocker sh
+  189  docker container run -dit --name database --net kopru1 ozgurozturknet/adanzyedocker sh
+  190  docker ps
+  191  clear
+  192  docker network inspect kopru1
+  193  docker attach websunucu
+  194  docker network create --driver=bridge --subnet===10.10.0.0/16 --ip-range=10.10.10.0
+  195  docker network create --driver=bridge --subnet===10.10.0.0/16 --ip-range=10.10.10.0/24 --gateway=10.10.10.10 kopru2
+  196  docker network create --driver=bridge --subnet=10.10.0.0/16 --ip-range=10.10.10.0/24 --gateway=10.10.10.10 kopru2
+  197  docker network ls
+  198  docker network inspect kopru2
+  199  clear
+  200  ls
+  201  clear
+  202  docker attach database
+  203  docker network inspect kopru2
+  204  docker network rm kopru1
+  205  clear
+  206  docker network inspect kopru1
+  207  docker network rm kopru2
+  208  docker network inspect kopru2
+  209  docker container rm -f database websunucu
+  210  docker network rm kopru1 kopru2
+  211  clear
+  212  docker ps -a
+  213  docker image ls -a
+  214  docker image prune
+  215  docker image rm -f *
+  216  docker image prune
+  217  clear
+  218  history
+  219  cl
+  220  clear
+  221  ls -l
+  222  cd
+  223  ls -l
+  224  ls /a
+  225  docker container run -d --name appbir ozgurozturknet/app1
+  226  docker attach appbir
+  227  docker start appbir
+  228  docker attach appbir
+  229  docker container start appbir
+  230  docker container attach appbir
+  231  clear
+  232  docker logs appbir
+  233  docker logs
+  234  docker logs appbir
+  235  clear
+  236  docker container run -d --name con1 -p 80:80 nginx
+  237  docker logs con1
+  238  clear
+  239  docker logs con1
+  240  docker container ls -a
+  241  docker container rm -f 64e
+  242  docker logs con1
+  243  docker container run -d --name con1 -p 5000:80 nginx
+  244  docker container run -d --name con2 -p 5000:80 nginx
+  245  docker logs con2
+  246  clear
+  247  docker exec -it con2 sh
+  248  clear
+  249  ls
+  250  clear
+  251  docker logs --help
+  252  docker logs --details
+  253  clear
+  254  docker ps -a
+  255  docker logs con2
+  256  clear
+  257  docker logs --details con2
+  258  clear
+  259  docker logs --details con2
+  260  clear
+  261  dockker logs -t con2
+  262  docker logs -t con2
+  263  clear
+  264  docker logs -t con2
+  265  docker logs con2
+  266  docker logs --tail 3 con2
+  267  clear
+  268  docker logs con2
+  269  clear
+  270  docker logs -f con2
+  271  clear
+  272  docker logs --tail 3 con2
+  273  clear
+  274  docker info
+  275  clear
+  276  docker info
+  277  docker container run --log-driver splunk nginx
+  278  clear
+  279  ps
+  280  docker top
+  281  docker top con2
+  282  docker top con1
+  283  docker container ls -a
+  284  clear
+  285  docker top con2
+  286  docker stats con1
+  287  docker stats
+  288  docker container rm -f con1
+  289  clear
+  290  docker stats con2
+  291  docker container ls
+  292  docker stats
+  293  docker run -d --memory=100m fatihtepe/flask-app --name tepe
+  294  docker stats
+  295  clera
+  296  clear
+  297  docker container ls -a
+  298  docker run -d --memory=100 --memory-swap=200 ozgurozturknet/adanzyedocker
+  299  docker run -d --memory=100m --memory-swap=200m ozgurozturknet/adanzyedocker
+  300  docker stats
+  301  history
+  302  docker container run -d --cpus="1.5" ozgurozturknet/adanzyedocker
+  303  docker container run -d --cpus="0.5" ozgurozturknet/adanzyedocker
+  304  docker stats
+  305  docker container run -d --cpus="0,1" ozgurozturknet/adanzyedocker
+  306  docker container run -d --cpus="0.1" ozgurozturknet/adanzyedocker
+```
