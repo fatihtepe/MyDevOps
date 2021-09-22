@@ -797,13 +797,16 @@ instance_type = "t2.micro"
 
 References:
 
-[https://kodekloud.com/](https://kodekloud.com/)
+[kodekloud](https://kodekloud.com/)
 
-[https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
+[250-practice-questions](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
 
-[https://www.terraform.io/docs/index.html](https://www.terraform.io/docs/index.html)
+[terraform.io](https://www.terraform.io/docs/index.html)
 
-[https://www.udemy.com/course/terraform-associate-practice-exam/](https://www.udemy.com/course/terraform-associate-practice-exam/)
+[udemy-practice-exam/](https://www.udemy.com/course/terraform-associate-practice-exam/)
+
+[Terraform Cheatsheet](https://justinoconnorcodes.files.wordpress.com/2021/09/terraform-cheatsheet-1.pdf)
+
 
 ## ****
 [1](https://www.udemy.com/course/hashicorp-certified-terraform-associate-2020/)
