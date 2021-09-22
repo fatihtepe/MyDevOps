@@ -804,3 +804,7 @@ References:
 [https://www.terraform.io/docs/index.html](https://www.terraform.io/docs/index.html)
 
 [https://www.udemy.com/course/terraform-associate-practice-exam/](https://www.udemy.com/course/terraform-associate-practice-exam/)
+
+## ****
+[1](https://www.udemy.com/course/hashicorp-certified-terraform-associate-2020/)
+[2](https://www.udemy.com/course/terraform-associate-certification-2021-practice-exams/)
