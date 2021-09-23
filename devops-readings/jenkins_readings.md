@@ -19,3 +19,8 @@ Jenkins is one of the most used, powerful, and open-source CI/CD tools in the in
 [Jenkins Pipeline Tutorial For Beginners](https://devopscube.com/jenkins-pipeline-as-code/)
 
 Jenkins pipeline as code is a concept of defining Jenkins build pipeline in Jenkins DSL/Groovy format. This article covers the key concepts involved in writing Jenkins pipeline as code using declarative syntax.
+
+
+[A Comprehensive Guide To Jenkins Pipeline](https://medium.com/edureka/jenkins-pipeline-tutorial-continuous-delivery-75a86936bc92)
+
+With big giants such as Expedia, Autodesk, UnitedHealth Group, Boeing etc. using Jenkins for the continuous delivery pipeline, you can interpret the demand for Continuous delivery & Jenkins skills. Have you ever wondered why Jenkins has gained so much popularity, especially over the recent years? One of the major factors that contribute to it’s popularity is the Jenkins pipeline and if you’re looking for a simple Jenkins pipeline tutorial, this blog is your go-to. Jenkins pipeline is a continuous delivery pipeline that executes the software workflow as code.
