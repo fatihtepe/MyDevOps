@@ -81,3 +81,7 @@ The Terraform Associate certification is for Cloud Engineers specializing in ope
 One of the best things about being a digital transformation leader in the cloud space is the humbling experience of working with so many smart, talented, creative, driven, and hard-working engineers. Over the past several years, our team has worked together to go from mostly manual and error prone deployments to fully automated infrastructure deployments with Terraform for all of our applications.
 
 [Exam Braindumps](https://free-braindumps.com/hashicorp/free-ta-002-p-braindumps.html?p=2)
+
+[Terraform in Real Life: Lessons Learned](https://medium.com/version-1/terraform-in-real-life-lessons-learned-2469e3fe74e6)
+
+As an AWS Consultant with Version 1, Infrastructure as Code plays a huge part in my role. As we are a multi-cloud partner, our IaC tool of choice is Terraform. In addition to supporting many providers (including all of the major clouds), Terraform offers many benefits for platform engineers including centralised state management, version controllable modules, and some advanced language functions.
