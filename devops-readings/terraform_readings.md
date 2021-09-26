@@ -85,3 +85,9 @@ One of the best things about being a digital transformation leader in the cloud 
 [Terraform in Real Life: Lessons Learned](https://medium.com/version-1/terraform-in-real-life-lessons-learned-2469e3fe74e6)
 
 As an AWS Consultant with Version 1, Infrastructure as Code plays a huge part in my role. As we are a multi-cloud partner, our IaC tool of choice is Terraform. In addition to supporting many providers (including all of the major clouds), Terraform offers many benefits for platform engineers including centralised state management, version controllable modules, and some advanced language functions.
+
+
+[How to manage Auto Scaling Group and Load Balancer with Terraform?](https://medium.com/geekculture/how-to-manage-auto-scaling-group-and-load-balancer-with-terraform-9ece263060b5)
+
+Terraform is an open-source infrastructure as a code (IAC) tool that allows to create, manage & deploy the production-ready environment. Terraform codifies cloud APIs into declarative configuration files. Terraform can manage both existing service providers and custom in-house solutions.
+
