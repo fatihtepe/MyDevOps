@@ -10,4 +10,4 @@ Docker is by far one of the most popular tools in DevOps world. If you work with
 
 If you’re a programmer or techie, chances are you’ve at least heard of Docker: a helpful tool for packing, shipping, and running applications within “containers.” It’d be hard not to, with all the attention it’s getting these days — from developers and system admins alike. Even the big dogs like Google, VMware and Amazon are building services to support it.
 
-	- The one big difference between containers and VMs is that containers *share* the host system’s kernel with other containers.
+* The one big difference between containers and VMs is that containers *share* the host system’s kernel with other containers.
