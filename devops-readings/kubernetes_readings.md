@@ -68,3 +68,9 @@ Almost two years back, we took the decision to leave behind our Ansible based co
 [10 Reasons why Kubernetes is a Good Idea](https://aws.plainenglish.io/10-reasons-why-kubernetes-is-a-good-idea-9b3990ef7fb1)
 
 Kubernetes is the leading container orchestration platform for modern multi-cloud deployment.
+
+
+[Kubernetes Imperative Commands Every Engineer Should Learn](https://blog.devgenius.io/kubernetes-imperative-commands-every-engineer-should-learn-3b5d8217fa29)
+
+When working with kubernetes, you will mostly be creating objects in a declarative way using YAML definition files.
+However, imperative commands can help in getting one time tasks done quickly, as well as generating definition file templates easily, saving a considerable amount of time.
