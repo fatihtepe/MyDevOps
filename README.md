@@ -5,6 +5,8 @@ All about DevOps!
 
 ![cloud](./img/cloud.png)<br>
 
+[Summary of DevOps Tools-edureka!](https://medium.com/edureka/devops-tutorial-89363dac9d3f)
+
 [crontab guru](https://crontab.guru/)
 The quick and simple editor for cron schedule expressions by Cronitor
 
