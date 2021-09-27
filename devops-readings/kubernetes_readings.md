@@ -74,3 +74,7 @@ Kubernetes is the leading container orchestration platform for modern multi-clou
 
 When working with kubernetes, you will mostly be creating objects in a declarative way using YAML definition files.
 However, imperative commands can help in getting one time tasks done quickly, as well as generating definition file templates easily, saving a considerable amount of time.
+
+[Play with Kubernetes](https://labs.play-with-k8s.com/)
+
+
