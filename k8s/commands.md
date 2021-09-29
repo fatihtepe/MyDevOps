@@ -51,3 +51,15 @@ k run secondpod --image=nginx --port=80 --labels="app=frontend" --restart=Never
 ```
 k edit pods firstpod    #pod/firstpod edited
 ```
+
+```
+k apply -f podlife1.yaml
+```
+```
+k get pods -w  # watch live
+```
+
+```
+k delete -f podlife1.yaml
+```
+
