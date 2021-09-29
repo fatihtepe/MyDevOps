@@ -87,3 +87,11 @@ k exec -it multicontainer -c webcontainer -- /bin/sh
 ```
 k port-forward pod/multicontainer 8080:80
 ```
+
+```
+ k apply -f podinitcontainer.yaml
+```
+
+```
+k logs -f initcontainerpod -c initcontainer
+```
