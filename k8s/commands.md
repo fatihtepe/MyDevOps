@@ -137,6 +137,10 @@ k config set-context --current --namespace=development
 ```
 k config set-context --current --namespace=default
 ```
-
-
+```
+k create deployment firstdeployment --image=nginx:latest --replica=2
+```
+```
+kubectl delete --all pods
+```
 
