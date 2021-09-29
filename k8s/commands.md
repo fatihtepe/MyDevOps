@@ -43,3 +43,11 @@ k exec firstpod -it firstpod -- /bin/sh
 ```
  k apply -f pod1.yaml
 ```
+
+```
+k run secondpod --image=nginx --port=80 --labels="app=frontend" --restart=Never
+```
+
+```
+k edit pods firstpod    #pod/firstpod edited
+```
