@@ -63,3 +63,16 @@ k get pods -w  # watch live
 k delete -f podlife1.yaml
 ```
 
+```
+ minikube start
+```
+```
+minikube delete
+```
+
+```
+k exec -it multicontainer -c webcontainer -- /bin/sh
+```
+```
+k port-forward pod/multicontainer 8080:80
+```
