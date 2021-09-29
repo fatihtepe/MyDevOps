@@ -95,3 +95,48 @@ k port-forward pod/multicontainer 8080:80
 ```
 k logs -f initcontainerpod -c initcontainer
 ```
+
+```
+ k get namespaces
+```
+
+```
+k get pods --namespace kube-system
+```
+```
+k get pods --all-namespaces
+```
+```
+╰─ k get pods --all-namespaces -A
+```
+```
+ k create namespace app1
+```
+
+```
+ k get namespaces
+```
+
+```
+─ k apply -f podnamespace.yaml
+```
+
+```
+k get pods -n development
+```
+
+```
+─ k exec -it namespacepod -n development -- /bin/sh
+```
+```
+k config set-context --current --namespace=development
+```
+```
+ k get pods
+```
+```
+k config set-context --current --namespace=default
+```
+
+
+
