@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tepe-deploy
+  labels:
+    app: container-info
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: container-info
+  template:
+    metadata:
+      labels:
+        app: container-info
+    spec:
+      containers:
+      - name: container-info
+        image: fatihtepe/flask-app:1.0
+        ports:
+        - containerPort: 80
