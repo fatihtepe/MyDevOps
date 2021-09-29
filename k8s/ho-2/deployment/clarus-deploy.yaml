@@ -1,11 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tepe-deploy
+  name: clarus-deploy
   labels:
     app: container-info
+  annotations:
+    kubernetes.io/change-cause: deploy/clarus-deploy is set as container-info=clarusway/container-info:1.0
 spec:
-  replicas: 0
+  replicas: 3
   selector:
     matchLabels:
       app: container-info
@@ -16,6 +18,6 @@ spec:
     spec:
       containers:
       - name: container-info
-        image: fatihtepe/flask-app:1.0
+        image: clarusway/container-info:2.0
         ports:
         - containerPort: 80

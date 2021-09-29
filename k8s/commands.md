@@ -144,3 +144,21 @@ k create deployment firstdeployment --image=nginx:latest --replica=2
 kubectl delete --all pods
 ```
 
+```
+k get pods
+```
+
+```
+ watch kubectl get pods
+```
+```
+k set image deployment/seconddeployment nginx=httpd
+```
+
+```
+k scale deploy seconddeployment --replicas=5
+```
+
+```
+k apply -f deploymenttemplate.yaml
+```
