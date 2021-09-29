@@ -69,9 +69,20 @@ k delete -f podlife1.yaml
 ```
 minikube delete
 ```
+```
+
+```
+k apply -f podmulticontainer.yaml
+```
+
+k logs -f multicontainer -c sidecarcontainer
+```
 
 ```
 k exec -it multicontainer -c webcontainer -- /bin/sh
+```
+```
+ k exec -it multicontainer -c sidecarcontainer -- /bin/sh
 ```
 ```
 k port-forward pod/multicontainer 8080:80
