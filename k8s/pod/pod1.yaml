@@ -4,6 +4,7 @@ metadata:
   name: firstpod
   labels:
     app: front-end
+    team: developer
 spec:
   containers:
   - name: nginx
