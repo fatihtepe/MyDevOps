@@ -1,4 +1,44 @@
 ```
+$ kubectl describe
+You must specify the type of resource to describe. Valid resource types include:
+    * all
+    * certificatesigningrequests (aka 'csr')
+    * clusters (valid only for federation apiservers)
+    * clusterrolebindings
+    * clusterroles
+    * componentstatuses (aka 'cs')
+    * configmaps (aka 'cm')
+    * daemonsets (aka 'ds')
+    * deployments (aka 'deploy')
+    * endpoints (aka 'ep')
+    * events (aka 'ev')
+    * horizontalpodautoscalers (aka 'hpa')
+    * ingresses (aka 'ing')
+    * jobs
+    * limitranges (aka 'limits')
+    * namespaces (aka 'ns')
+    * networkpolicies
+    * nodes (aka 'no')
+    * persistentvolumeclaims (aka 'pvc')
+    * persistentvolumes (aka 'pv')
+    * pods (aka 'po')
+    * poddisruptionbudgets (aka 'pdb')
+    * podsecuritypolicies (aka 'psp')
+    * podtemplates
+    * replicasets (aka 'rs')
+    * replicationcontrollers (aka 'rc')
+    * resourcequotas (aka 'quota')
+    * rolebindings
+    * roles
+    * secrets
+    * serviceaccounts (aka 'sa')
+    * services (aka 'svc')
+    * statefulsets
+    * storageclasses
+    * thirdpartyresources
+```
+
+```
 alias k=kubectl
 ```
 ```
@@ -161,4 +201,12 @@ k scale deploy seconddeployment --replicas=5
 
 ```
 k apply -f deploymenttemplate.yaml
+```
+
+```
+k set image deployment/firstdeployment nginx=httpd
+```
+
+```
+k rollout undo deploy firstdeployment
 ```
