@@ -11,6 +11,8 @@ spec:
     metadata:
       labels:
         app: web-flask
+        version: v1
+        test: coupling
     spec:
       containers:
       - name: web-flask-pod
