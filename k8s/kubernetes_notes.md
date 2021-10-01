@@ -33,3 +33,38 @@ The core part of the computing node is a component called
 - `kubelet` also interacts with a plug-in called Device Plugin through the gRPC protocol. This plug-in is the main component used by k8s project to manage the physical devices of the host such as GPU. It is also a function that must be paid attention to for machine learning training and high-performance operation support based on the k8s project
 
 - `kubelet` also make calls to the network plug-in and storage plug-in to configure the network and persistent storage for the container, through two interfaces: CNI (Container Networking Interface) and CSI (Container Storage Interface)[***](https://aws.plainenglish.io/kubernetes-deep-dive-one-k8s-basics-81e59d81f4bd)
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+```
+
+- `kind`
+kind specifies the type of this API object (Type), which is a Deployment in my example.
+- `Deployment`
+It is an object that defines multiple replica applications (ie multiple replica Pods). In addition, Deployment is also responsible for rolling update of each copy when the Pod definition changes. In my example, we set replicas to 2 .
+- `Metadata`
+This field is the “identification” of the API object, and it is also the main basis for us to find this object from Kubernetes. The most important field used here is Labels.
+- `Labels`
+Labels is a set of labels in key-value format. Controller objects like Deployment can filter out the controlled objects it cares about from Kubernetes through this Labels field. In this example, Deployment will identify all running Pods with the tag “app: nginx” as managed objects and ensure that the total number of these Pods is strictly equal to two.
+- `Pod`
+Pod is the “application” in the k8s world; and an application can be composed of multiple containers.
+It should be noted that the method of using one API object (Deployment) to manage another API object (Pod) like this is called the “controller pattern” in k8s. In my example, Deployment plays the role of Pod’s controller.[***](https://aws.plainenglish.io/kubernetes-deep-dive-three-first-container-application-177b4e2b2d02)
