@@ -77,4 +77,6 @@ However, imperative commands can help in getting one time tasks done quickly, as
 
 [Play with Kubernetes](https://labs.play-with-k8s.com/)
 
+[Kubernetes Deep Dive Two: Create AWS EKS Cluster With One Command](https://aws.plainenglish.io/kubernetes-deep-dive-two-create-aws-eks-cluster-with-one-command-3b23e592db14)
 
+`eksctl` is a simple command line utility for creating and managing k8s clusters on AWS EKS. It is written in golang, use AWS SDK and CloudFormation service. Using eksctl, you can create a basic EKS cluster in minutes with just one command.
