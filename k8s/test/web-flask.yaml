@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-flask
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web-flask
+  template:
+    metadata:
+      labels:
+        app: web-flask
+    spec:
+      containers:
+      - name: web-flask-pod
+        image: clarusways/cw_web_flask1
+        ports:
+        - containerPort: 5000
