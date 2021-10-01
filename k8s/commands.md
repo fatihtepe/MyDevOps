@@ -210,3 +210,23 @@ k set image deployment/firstdeployment nginx=httpd
 ```
 k rollout undo deploy firstdeployment
 ```
+
+```
+k apply -f podlabel.yaml
+```
+
+```
+k get pods -o wide
+```
+
+```
+k get pods -l "app" --show-labels
+```
+
+```
+k get pods -l "app=firstapp" --show-labels
+```
+
+```
+k get pods -l "app=firstapp, tier=frontend" --show-labels
+```
