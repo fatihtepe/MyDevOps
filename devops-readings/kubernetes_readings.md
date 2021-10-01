@@ -80,3 +80,7 @@ However, imperative commands can help in getting one time tasks done quickly, as
 [Kubernetes Deep Dive Two: Create AWS EKS Cluster With One Command](https://aws.plainenglish.io/kubernetes-deep-dive-two-create-aws-eks-cluster-with-one-command-3b23e592db14)
 
 `eksctl` is a simple command line utility for creating and managing k8s clusters on AWS EKS. It is written in golang, use AWS SDK and CloudFormation service. Using eksctl, you can create a basic EKS cluster in minutes with just one command.
+
+[Important Pod Configuration Fields](https://aws.plainenglish.io/kubernetes-deep-dive-five-important-pod-configuration-fields-be4e140214eb)
+
+In this article, I explained the Pod API object in detail introduced the core usage of Pod, and analyzed the similarities and differences between Pod and Container. I hope these explanations can help you better understand the core fields in Pod YAML and the precise meaning of these fields.
