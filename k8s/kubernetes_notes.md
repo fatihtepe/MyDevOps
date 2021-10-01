@@ -68,3 +68,8 @@ Labels is a set of labels in key-value format. Controller objects like Deploymen
 - `Pod`
 Pod is the “application” in the k8s world; and an application can be composed of multiple containers.
 It should be noted that the method of using one API object (Deployment) to manage another API object (Pod) like this is called the “controller pattern” in k8s. In my example, Deployment plays the role of Pod’s controller.[***](https://aws.plainenglish.io/kubernetes-deep-dive-three-first-container-application-177b4e2b2d02)
+
+![pod](./img/pod.png)
+
+So, how is the Pod “created”? The answer is: Pod is actually a set of containers that share certain resources. All containers in a Pod share the same Network Namespace and can declare to share the same Volume.[***](https://aws.plainenglish.io/kubernetes-deep-dive-four-why-we-need-pod-e88949eb7b08)
+
