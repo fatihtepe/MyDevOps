@@ -230,3 +230,45 @@ k get pods -l "app=firstapp" --show-labels
 ```
 k get pods -l "app=firstapp, tier=frontend" --show-labels
 ```
+```
+k get pods -l "app=firstapp, tier!=frontend" --show-labels
+```
+
+```
+ k get pods -l "app,tier=frontend" --show-labels
+```
+
+```
+k get pods -l 'app in (firstapp)' --show-labels
+```
+
+```
+k get pods -l 'app in (firstapp, secondapp)' --show-labels
+```
+
+```
+k get pods -l 'app notin (firstapp)' --show-labels
+```
+```
+k get pods -l '!app' --show-labels
+```
+
+```
+k get pods -l 'app in (firstapp), tier notin (frontend)' --show-labels
+```
+
+```
+k label pods pod9 app=thirdapp
+```
+
+```
+k label pods pod9 app-
+```
+
+```
+k label --overwrite pods pod9 team=team3   # update
+```
+
+```
+k label pods --all foo=bar  # give same label to all pods
+```
