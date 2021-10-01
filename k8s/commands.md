@@ -272,3 +272,15 @@ k label --overwrite pods pod9 team=team3   # update
 ```
 k label pods --all foo=bar  # give same label to all pods
 ```
+
+```
+k get nodes --show-labels
+```
+
+```
+k label nodes minikube hddtype=ssd
+```
+
+```
+k get pods -w
+```
