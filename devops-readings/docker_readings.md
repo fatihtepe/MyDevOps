@@ -11,3 +11,7 @@ Docker is by far one of the most popular tools in DevOps world. If you work with
 If you’re a programmer or techie, chances are you’ve at least heard of Docker: a helpful tool for packing, shipping, and running applications within “containers.” It’d be hard not to, with all the attention it’s getting these days — from developers and system admins alike. Even the big dogs like Google, VMware and Amazon are building services to support it.
 
 * The one big difference between containers and VMs is that containers *share* the host system’s kernel with other containers.
+
+[Containers from Zero To Hero (1): Basic Container Concepts](https://aws.plainenglish.io/container-zero-to-hero-1-basic-container-concept-b78700e2dcb5)
+
+According to a recent Forbes article, container adoption is growing rapidly in the enterprise — much faster than expected. And according to a recent Gartner report, “By 2023, more than 70% of global organizations will be running more than two containerized applications in production, up from less than 20% in 2019.”
