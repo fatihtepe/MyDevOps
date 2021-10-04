@@ -199,8 +199,6 @@ First point to understand is that these are complementing constructs. Which mean
 
 [Protect your Infrastructure with Real-time Notifications of AWS Console User Changes](https://towardsdatascience.com/protect-your-infrastructure-with-real-time-notifications-of-aws-console-user-changes-3144fd18c680)
 
-![s3lambdasns](./img/s3lambdasns.png)
-
 You’ve embraced infrastructure as code (IoC) and painstakingly created Terraform or CloudFormation to model your EC2 Instances, AutoScaling Groups, ECS clusters, and everything else. The devops and development teams have committed to only modify and create infrastructure using your chosen IoC tools — but, surprise, some people just won’t comply. Maybe someone gets lazy during feature development or takes a shortcut during incident response. Maybe you’ve outsourced your level one support and you don’t entirely trust that group yet. Whatever the reason, you would love to know when a user logs in to the AWS Console web site and manually changes things.
 
 [AWS — WAF (Web Application Firewall) Overview](https://medium.com/awesome-cloud/aws-waf-web-application-firewall-overview-what-is-aws-waf-introduction-to-aws-web-application-firewall-6247a8a0283d)
@@ -210,3 +208,7 @@ AWS WAF is a managed web application firewall service that helps you protect you
 [AWS Lambda Architecture Best Practices](https://medium.com/softkraft/aws-lambda-architecture-best-practices-e2ef23b85abf)
 
 AWS Lambda can be used along side other AWS services such as to process lifecycle events from Amazon Elastic Compute Cloud and manage Amazon EC2 resources. Amazon EC2 sends events to Amazon CloudWatch Events for lifecycle events such as when an instance changes state, when an Amazon Elastic Block Store volume snapshot completes, or when a spot instance is scheduled to be terminated. You configure CloudWatch Events to forward those events to a Lambda function for processing.
+
+[Practicing AWS security with IAMVulnerable](https://s3cur3.it/home/practicing-aws-security-with-iamvulnerable)
+
+If you want to get quick visual insights what privilege escalation paths are possible within your account use PMapper, it builds beautiful graphs explaining the paths. Combined with manual checks for potential paths this will help you harden your AWS configuration. ![PMapper](../img/Pmapper.png)
