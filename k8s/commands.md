@@ -311,3 +311,4 @@ kubectl scale rs new-replica-set --replicas=5
 ```
 
 ![Deployment](./img/deployment.png)
+![kubectl get all ](./img/kgetall.png)
