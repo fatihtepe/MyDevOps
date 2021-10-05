@@ -309,6 +309,5 @@ k edit replicaset new-replica-set
 ```
 kubectl scale rs new-replica-set --replicas=5
 ```
-```
 
-```
+![Deployment](./img/deployment.png)
