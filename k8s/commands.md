@@ -284,3 +284,22 @@ k label nodes minikube hddtype=ssd
 ```
 k get pods -w
 ```
+
+```
+k run nginx --image=nginx
+```
+
+```
+kubectl describe pod podname | grep -i image
+```
+
+```
+k run redis --image=redis123 --dry-run=client -o yaml > pod.yaml  #run a new pod
+```
+
+```
+k apply -f pod.yaml
+```
+```
+k edit pod redis
+```
