@@ -347,3 +347,4 @@ kubectl create deployment --image=nginx nginx --replicas=4 --dry-run=client -o y
 ![Namespace](./img/namespace.png)
 ![Namespace](./img/namespace2.png)
 ![Namespace](./img/namespace3.png)
+![Resource Quota](./img/resourcequota.png)
