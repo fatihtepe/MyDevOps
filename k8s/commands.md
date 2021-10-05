@@ -303,3 +303,12 @@ k apply -f pod.yaml
 ```
 k edit pod redis
 ```
+```
+k edit replicaset new-replica-set
+```
+```
+kubectl scale rs new-replica-set --replicas=5
+```
+```
+
+```

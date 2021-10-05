@@ -84,3 +84,10 @@ However, imperative commands can help in getting one time tasks done quickly, as
 [Important Pod Configuration Fields](https://aws.plainenglish.io/kubernetes-deep-dive-five-important-pod-configuration-fields-be4e140214eb)
 
 In this article, I explained the Pod API object in detail introduced the core usage of Pod, and analyzed the similarities and differences between Pod and Container. I hope these explanations can help you better understand the core fields in Pod YAML and the precise meaning of these fields.
+
+[Why you can’t ping a Kubernetes Service](https://nigelpoulton.com/why-you-cant-ping-a-kubernetes-service/)
+
+It’s pretty annoying when you’re troubleshooting an issue with a Kubernetes Service and you realise you can’t use ping to test it.
+
+So… here’s a technical explanation why ping doesn’t work with Kubernetes Services.
+
