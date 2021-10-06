@@ -348,3 +348,43 @@ kubectl create deployment --image=nginx nginx --replicas=4 --dry-run=client -o y
 ![Namespace](./img/namespace2.png)
 ![Namespace](./img/namespace3.png)
 ![Resource Quota](./img/resourcequota.png)
+
+## Creating Secret
+```
+$ echo -n 'admin' > ./username.txt
+
+$ echo -n '123456' > ./password.txt
+
+$ kubectl create secret generic db-user-pass --from-file=./username.txt --from-file=./password.txt
+
+$ kubectl create secret generic db-user-pass --from-file=username=./username.txt --from-file=password=./password.txt
+
+$ kubectl get secrets
+
+$ kubectl describe secrets/db-user-pass
+
+```
+## Creating a Secret manually
+```
+echo -n 'admin' | base64
+echo -n '1f2d1e2e67df' | base64
+```
+```
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysecret
+type: Opaque
+data:
+  username: YWRtaW4=
+  password: MWYyZDFlMmU2N2Rm
+```
+
+```
+kubectl apply -f ./secret.yaml # create
+kubectl get secret mysecret -o yaml  # decode
+```
+
+```
+echo 'MWYyZDFlMmU2N2Rm' | base64 --decode
+```
