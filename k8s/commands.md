@@ -388,3 +388,23 @@ kubectl get secret mysecret -o yaml  # decode
 ```
 echo 'MWYyZDFlMmU2N2Rm' | base64 --decode
 ```
+
+```
+k create secret generic mysecret2 --from-literal=db_server=db.example.com --from-literal=db_username=admin --from-literal=db_password=P@assw0rd
+```
+
+```
+k get secrets
+```
+```
+╰─ k create secret generic mysecret3 --from-file=db_server=server.txt --from-file=db_username=username.txt --from-file=db_password=password.txt
+```
+
+```
+k exec secretpodenv -- printenv
+```
+
+```
+╰─ k create configmap myconfigmap --from-literal=background=blue --from-file=a.txt
+```
+
