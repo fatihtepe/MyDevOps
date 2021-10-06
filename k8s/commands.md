@@ -397,7 +397,7 @@ k create secret generic mysecret2 --from-literal=db_server=db.example.com --from
 k get secrets
 ```
 ```
-╰─ k create secret generic mysecret3 --from-file=db_server=server.txt --from-file=db_username=username.txt --from-file=db_password=password.txt
+k create secret generic mysecret3 --from-file=db_server=server.txt --from-file=db_username=username.txt --from-file=db_password=password.txt
 ```
 
 ```
@@ -405,6 +405,37 @@ k exec secretpodenv -- printenv
 ```
 
 ```
-╰─ k create configmap myconfigmap --from-literal=background=blue --from-file=a.txt
+k create configmap myconfigmap --from-literal=background=blue --from-file=a.txt
 ```
 
+```
+k get pod webapp-color -o yaml > pod.yaml
+```
+
+```
+k explain pods --recursive | grep envFrom -A3
+```
+
+```
+k explain pods --recursive | less
+```
+
+## secrets and configmap
+
+```
+kubectl create secret generic db-user-pass --from-file=./username.txt --from-file=./password.txt
+```
+```
+kubectl create secret generic db-user-pass-key --from-file=username=./username.txt --from-file=password=./password.txt
+```
+```
+echo -n 'admin' | base64
+echo -n '1f2d1e2e67df' | base64
+```
+```
+echo 'MWYyZDFlMmU2N2Rm' | base64 --decode
+```
+
+```
+kubectl create configmap demo-config --from-file=./config
+```
