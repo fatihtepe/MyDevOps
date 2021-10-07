@@ -11,7 +11,7 @@ The idea of cloud computing came in to picture(1970), Professor Ramnath Chellaph
 <a href="https://www.youtube.com/watch?v=gC7lnK2FC4A&t=32s">CLOUD CONSUMER</a> <BR>
 A Cloud Consumer is an user of cloud products and services.<br>
 
-<a href="https://www.youtube.com/watch?v=gC7lnK2FC4A&t=32s">CLOUD PROVIDER</A> 
+<a href="https://www.youtube.com/watch?v=gC7lnK2FC4A&t=32s">CLOUD PROVIDER</A>
 The purveyor of products and services.
 
 *The cloud provider and cloud consumer share the control of resources in the cloud system.
@@ -48,10 +48,10 @@ Types(Software V, Server V, Storage V, O/S Virtualization)<br>
 Container technology, also simply know as just a container, is a method to package an application so it can be run, with its dependencies, isolated from other processes. The major public cloud computing providers, including AWS, Azure, Google Cloud have embraced container tehcnology.
 
 <a href="https://www.youtube.com/watch?v=s7wmiS2mSXY">API</a> <br>
-API stands for Application Programming Interface. An API is a sowftware that allows two applications to talk to each other. 
+API stands for Application Programming Interface. An API is a sowftware that allows two applications to talk to each other.
 
 <a href="https://www.youtube.com/watch?v=hYgP0cBORVg"> API GATEWAY</a> <br>
-An API gateway is an <a href="https://www.youtube.com/watch?v=8WuVBbXsHzg">API</a> management solution acting as the simple entryway into a system for all API. 
+An API gateway is an <a href="https://www.youtube.com/watch?v=8WuVBbXsHzg">API</a> management solution acting as the simple entryway into a system for all API.
 
 <a href="https://www.youtube.com/watch?v=wB6Lfdo2m1Q&t=428s">CLOUD SERVICE MODELS</a><BR>
 <a href="https://www.youtube.com/watch?v=wB6Lfdo2m1Q&t=428s">ON-PREMISE</a> The on-premises model refers to traditional way of handling software and hardware in most companies. All archives and data are displayed on the server source and not transferred to the internet environment.<br>
@@ -80,7 +80,7 @@ Amazon EC2 is free to try. There are five ways to pay for Amazon EC2 instances: 
 
 * Reserved Instances - recommended for stable workloads, which can be secured over a 1 to 3 year term.  These are the cheapest per second of billing.
 
-* Spot Instances - these are instances that you can bid for, and if you are successful you get to use them for a period of time.  Perfect for time critical workloads.  
+* Spot Instances - these are instances that you can bid for, and if you are successful you get to use them for a period of time.  Perfect for time critical workloads.
 
 * Dedicated - a dedicated physical server, recommended for when you have to licence per server to save costs or for clear, compelling compliance reasons.  These are the most expensive per second of billing.<br>
 
@@ -95,10 +95,10 @@ It is the measure of no. of I/O operations a drive, SSD or HDD, will handle per 
 Throughput is the value that specifies how many MB of data transfer per second is allowed to a storage system. It is the sequential transfer rate whih an SSD or HDD will maintain continuously.<br>
 
 <a href="https://www.youtube.com/watch?v=_edxeLGnJpg">EBS Valume Types</a><br>
-Talking about AmazonEBS, which is another method of providing storage to your #AmazonEC2 instances, which has different benefits to that of the instance store volumes.<br> 
+Talking about AmazonEBS, which is another method of providing storage to your #AmazonEC2 instances, which has different benefits to that of the instance store volumes.<br>
 <img src="img/EBS" alt="Elastic Block Store"> <br>
-  
-## [Amazon EBS volume types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)  
+
+## [Amazon EBS volume types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)
 
 Amazon EBS provides the following volume types, which differ in performance characteristics and price, so that you can tailor your storage performance and cost to the needs of your applications. The volumes types fall into these categories:
 
@@ -115,3 +115,6 @@ Amazon EC2 provides you with flexible, cost effective, and easy-to-use data stor
 [Amazon EBS volume types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html#solid-state-drives)
 Amazon EBS provides the following volume types, which differ in performance characteristics and price, so that you can tailor your storage performance and cost to the needs of your applications.
 
+[What is Mutable vs. Immutable Infrastructure?](https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure)
+
+HashiCorp co-founder and CTO Armon Dadgar explains the differences and trade-offs between mutable and immutable infrastructure.
