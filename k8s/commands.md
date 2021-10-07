@@ -439,3 +439,6 @@ echo 'MWYyZDFlMmU2N2Rm' | base64 --decode
 ```
 kubectl create configmap demo-config --from-file=./config
 ```
+
+
+![imperative](./img/imperative.png)
