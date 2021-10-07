@@ -123,5 +123,10 @@ HashiCorp co-founder and CTO Armon Dadgar explains the differences and trade-off
 
 Traditionally to host an application, one would deploy a server and configure applications on it.
 Then comes server patching, application upgrades, server configurations changes, etc. All these actions would be performed on the same server manually or using tools.
+
 Immutable — Like its literal meaning, Immutable infrastructure is a concept where you don’t make any changes to the server after you deploy it.
 If you want to make any changes, the existing servers should be destroyed and replaced with a new ones.
+
+[What is GitOps?](https://devopslearners.com/what-is-gitops-168aac9a2ee)
+
+You define the desired infrastructure configs in git, and a tool or an operator software that sits in your infrastructure watches for any changes in git.
