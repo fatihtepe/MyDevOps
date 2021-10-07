@@ -108,3 +108,8 @@ DevOps and agile methodologies have become industry standard in the software rel
 That part that no one wants to bring up when we talk about DevOps. I know guys, it’s scary. Databases hold all this data in some form of state and well, the entire DevOps ecosystem has built around the premise of stateless applications.
 
 [Devops Interview Questions](https://selfonlinetraining.wordpress.com/devops-interview-questions/)
+
+[](https://medium.com/schkn/monitoring-linux-processes-using-prometheus-and-grafana-113b3e271971)
+
+Whether you are a Linux system administrator or a DevOps engineer, you spend a lot of time tracking performance metrics on your servers.
+You may sometimes have instances that are running very slow without having any real clues of what the issues might be.

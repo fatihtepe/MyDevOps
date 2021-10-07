@@ -442,3 +442,4 @@ kubectl create configmap demo-config --from-file=./config
 
 
 ![imperative](./img/imperative.png)
+![select](./img/select.png)
