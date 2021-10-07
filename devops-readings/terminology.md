@@ -118,3 +118,10 @@ Amazon EBS provides the following volume types, which differ in performance char
 [What is Mutable vs. Immutable Infrastructure?](https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure)
 
 HashiCorp co-founder and CTO Armon Dadgar explains the differences and trade-offs between mutable and immutable infrastructure.
+
+[What is immutable infrastructure?](https://devopslearners.com/what-is-immutable-infrastructure-4e851b28a7c4)
+
+Traditionally to host an application, one would deploy a server and configure applications on it.
+Then comes server patching, application upgrades, server configurations changes, etc. All these actions would be performed on the same server manually or using tools.
+Immutable — Like its literal meaning, Immutable infrastructure is a concept where you don’t make any changes to the server after you deploy it.
+If you want to make any changes, the existing servers should be destroyed and replaced with a new ones.
