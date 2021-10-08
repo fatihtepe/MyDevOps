@@ -130,3 +130,5 @@ If you want to make any changes, the existing servers should be destroyed and re
 [What is GitOps?](https://devopslearners.com/what-is-gitops-168aac9a2ee)
 
 You define the desired infrastructure configs in git, and a tool or an operator software that sits in your infrastructure watches for any changes in git.
+
+[Understanding Amazon EC2 Terminology](https://levelup.gitconnected.com/understanding-amazon-ec2-terminology-85be19d0af28)
