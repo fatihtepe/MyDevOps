@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <title>GLOW</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Shaded Text, a SVG+CSS3 experiment about animated shadows by RGG">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  text-align:center;
+  padding:100px;
+}
+
+.text span {
+  font-size: 6vw;
+  padding: 0 5px;
+  text-transform: uppercase;
+  color: #fff;
+  animation: zoomup 4s linear infinite;
+  animation-delay: calc(200ms * var(--i));
+}
+
+@keyframes zoomup {
+  0%,
+  100% {
+    color: #00c2ba;
+    filter: blur(1px);
+    text-shadow: 0 0 10px #00c2ba, 0 0 20px #00c2ba, 0 0 30px #00c2ba,
+      0 0 40px #00c2ba, 0 0 60px #00c2ba, 0 0 80px #00c2ba, 0 0 100px #00c2ba,
+      0 0 120px #00c2ba;
+  }
+
+  3%,
+  97% {
+    filter: blur(0);
+    color: #fff;
+    text-shadow: none;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="text">
+    <span style=--i:1>D</span><span style=--i:2>e</span><span style=--i:3>v</span><span style=--i:4>O</span><span style=--i:5>p</span><span style=--i:6>s</span><span style=--i:7> </span><span style=--i:8>f</span><span style=--i:9>a</span><span style=--i:10>t</span><span style=--i:11>i</span><span style=--i:12>h</span><span style=--i:13>t</span><span style=--i:14>e</span><span style=--i:15>p</span><span style=--i:16>e</span>
+  </div>
+</div>
+</body>
+</html>

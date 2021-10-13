@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <title>JUMP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Shaded Text, a SVG+CSS3 experiment about animated shadows by RGG">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EF6667;
+}
+
+.text span {
+  padding: 0 7px;
+  font-size: 4vw;
+  animation: zoomup 4s ease infinite;
+  display: inline-block;
+  animation-delay: calc(200ms * var(--i));
+  color: #eee;
+}
+
+@keyframes zoomup {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2) translateY(-50px);
+    filter: blur(1px);
+    opacity: 0;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="text">
+    <span style=--i:1>D</span><span style=--i:2>e</span><span style=--i:3>v</span><span style=--i:4>O</span><span style=--i:5>p</span><span style=--i:6>s</span><span style=--i:7> </span><span style=--i:8>F</span><span style=--i:9>a</span><span style=--i:10>t</span><span style=--i:11>i</span><span style=--i:12>h</span><span style=--i:13> </span><span style=--i:14>T</span><span style=--i:15>e</span><span style=--i:16>p</span><span style=--i:17>e</span>
+  </div>
+</div>
+</body>
+</html>
