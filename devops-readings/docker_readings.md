@@ -15,3 +15,7 @@ If you’re a programmer or techie, chances are you’ve at least heard of Docke
 [Containers from Zero To Hero (1): Basic Container Concepts](https://aws.plainenglish.io/container-zero-to-hero-1-basic-container-concept-b78700e2dcb5)
 
 According to a recent Forbes article, container adoption is growing rapidly in the enterprise — much faster than expected. And according to a recent Gartner report, “By 2023, more than 70% of global organizations will be running more than two containerized applications in production, up from less than 20% in 2019.”
+
+[How to create a Dockerfile with some dockerfile examples](https://linuxtechlab.medium.com/how-to-create-a-dockerfile-with-some-dockerfile-examples-f6d645563bb2)
+
+Dockerfile is a text file that contains a list of commands that are used to build a docker image automatically. Basically, a docker file acts as a set of instructions that are needed to build a docker image.
