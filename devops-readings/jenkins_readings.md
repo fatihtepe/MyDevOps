@@ -31,3 +31,7 @@ Jenkins job DSL is a plugin that allows us to define jobs in programmatic form w
 DSL stands for Domain Specific Language.
 You can describe your jobs in Jenkins using a Groovy Based Language.
 Groovy-- It’s similar to java but simpler because it’s much more dynamic. It’'s Scripting Language.
+
+[10 Best Practices for building Jenkins Pipeline](https://azeynalli1990.medium.com/10-best-practices-for-building-jenkins-pipeline-4c0b58acd4a3)
+
+In DevOps world Jenkins is the most used CI/CD tool along with GitLab. Almost every Full-Stack Developer or DevOps Engineer has come across with writing Jenkins Pipeline for automation purposes. Apache Groovy brings great flexibility for writing Pipeline scripts. Based on my personal experience and with some research I will try to point out…
