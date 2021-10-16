@@ -1,0 +1,20 @@
+- hosts: localhost
+  vars_files:
+    - ./vari.yml
+  tasks:
+    - name: create file
+      shell: "touch test.txt"
+
+
+    - name: list files
+      shell: "ls {{ variable_test }}"
+      register: result
+
+    - name: test
+      shell: "echo 'test.txt oluşmuş' > test.txt"
+      when: result.stdout.find("test.txt") != -1
+      notify: test_handler
+
+  handlers:
+    - name: test_handler
+      shell: "echo 'handler succeed' >> test.txt"
