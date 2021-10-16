@@ -91,3 +91,9 @@ It’s pretty annoying when you’re troubleshooting an issue with a Kubernetes 
 
 So… here’s a technical explanation why ping doesn’t work with Kubernetes Services.
 
+[This Tool is a Must If You Work on Kubernetes](https://shahneil.medium.com/this-tool-is-a-must-if-you-work-on-kubernetes-d0363a3cdeb9)
+
+A Lens which will make you a Kubernetes Superman
+As I was working recently on Kubernetes especially on minikube as were using it for the production environment.
+I was really frustrated with the fact that minikube dashboard is very bad and lacking many features. Also, I was using the minikube Kube config file to manage resources…
+For DevOps engineers, there is a constant struggle while debugging errors on Kubernetes.
