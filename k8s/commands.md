@@ -443,3 +443,48 @@ kubectl create configmap demo-config --from-file=./config
 
 ![imperative](./img/imperative.png)
 ![select](./img/select.png)
+
+```
+kubectl describe node kubemaster | grep Taint
+```
+## Label Nodes
+
+```
+kubectl label nodes node-1 size=Large
+```
+
+## tips
+
+```
+alias k="kubectl"
+```
+```
+do="--dry-run=client -o yaml"
+```
+
+```
+k create configmap example --from-literal=a=apple $do > my-resource.yaml
+```
+
+```
+k apply -f my-resource.yaml -n my-namespace
+```
+
+```
+k run tmp --image=busybox --restart=Never -it --rm -- wget -O- -T 3 https://www.google.com # The wget -O- option redirects output to standard out; the -T 3 option sets the timeout to three seconds.
+```
+
+```
+k delete -f my-resource.yaml --force=true #avoid having to wait
+```
+
+```
+k expose deployment nginx --port=80 --target=port=80 --name=my-service --type=NodePort
+```
+
+![Resource - Memory](./img/resourcememory.png)
+
+```
+kubectl apply -f https://k8s.io/examples/controllers/nginx-deployment.yaml
+```
+
