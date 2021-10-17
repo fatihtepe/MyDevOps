@@ -487,4 +487,37 @@ k expose deployment nginx --port=80 --target=port=80 --name=my-service --type=No
 ```
 kubectl apply -f https://k8s.io/examples/controllers/nginx-deployment.yaml
 ```
+## Metrics Server
+```
+minikube addons enable metrics-server
+```
 
+```
+git clone https://github.com/kubernetes=incubator/metrics-server.git
+k create -f deploye/1.8+/
+```
+```
+k top node
+k top pod
+```
+
+`event-simulator.yaml`
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: event-simulator-pod
+spec:
+  containers:
+  - name: event-simulator
+    image: kodekloud/event-simulator
+  - name: image-processor
+    image: some-image-processor
+
+```
+```
+k create -f event-simulator.yaml
+```
+```
+k logs -f event-simulator-pod
+```
