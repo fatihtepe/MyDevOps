@@ -459,7 +459,7 @@ kubectl label nodes node-1 size=Large
 alias k="kubectl"
 ```
 ```
-do="--dry-run=client -o yaml"
+alias do="--dry-run=client -o yaml"
 ```
 
 ```
@@ -540,3 +540,8 @@ k rollout undo deploy nginx-deployment
 k get replicasets
 ```
 
+## Secretss
+
+```
+kubectl create secret generic app-secret --from-literal=DB_Host=mysql --from-literal=DB_User=root --from-literal=DB_Password=paswrd 
+```
