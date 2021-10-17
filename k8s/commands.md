@@ -521,3 +521,22 @@ k create -f event-simulator.yaml
 ```
 k logs -f event-simulator-pod
 ```
+
+## Rolling Updates and rollbacks
+
+```
+k rollout history deploy nginx-deployment
+```
+
+```
+k rollout status deployment nginx-deployment
+```
+
+```
+k rollout undo deploy nginx-deployment
+```
+
+```
+k get replicasets
+```
+
