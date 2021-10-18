@@ -212,3 +212,8 @@ AWS Lambda can be used along side other AWS services such as to process lifecycl
 [Practicing AWS security with IAMVulnerable](https://s3cur3.it/home/practicing-aws-security-with-iamvulnerable)
 
 If you want to get quick visual insights what privilege escalation paths are possible within your account use PMapper, it builds beautiful graphs explaining the paths. Combined with manual checks for potential paths this will help you harden your AWS configuration. ![PMapper](../img/Pmapper.png)
+
+
+[AWS VPC Diagram Generator](https://alanblackmore.medium.com/aws-vpc-diagram-generator-242002ad4c75)
+
+When you are working with AWS VPC infrastructure, there are many many reasons why you can benefit from accurate automatically generated infrastructure diagrams.
