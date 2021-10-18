@@ -48,7 +48,7 @@ k get pods -A -o yaml
 k get pods -A -o json
 ```
 ```
-alias kc=’kubectl’
+alias k=’kubectl’
 alias kgp=’kubectl get pods’
 alias kgs=’kubectl get svc’
 alias kgc=’kubectl get componentstatuses’
@@ -552,4 +552,16 @@ k get replicasets
 
 ```
 kubectl create secret generic app-secret --from-literal=DB_Host=mysql --from-literal=DB_User=root --from-literal=DB_Password=paswrd
+```
+
+## Backup and Restore Methods
+
+```
+ kubectl get all --all-namespaces -oyaml > all-deploy-services.yaml
+```
+
+--<!-- markdownlint-capture -->
+
+```
+kubectl describe pod
 ```
