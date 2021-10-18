@@ -47,7 +47,15 @@ k get pods -A -o wide
 k get pods -A -o yaml
 k get pods -A -o json
 ```
-
+```
+alias kc=’kubectl’
+alias kgp=’kubectl get pods’
+alias kgs=’kubectl get svc’
+alias kgc=’kubectl get componentstatuses’
+alias kctx=’kubectl config current-context’
+alias kcon=’kubectl config use-context’
+alias kgc=’kubectl config get-context’
+```
 ```
 k get pods -A -o json | jq -r ".items[].spec.containers[].name"  #only names
 ```
@@ -543,5 +551,5 @@ k get replicasets
 ## Secretss
 
 ```
-kubectl create secret generic app-secret --from-literal=DB_Host=mysql --from-literal=DB_User=root --from-literal=DB_Password=paswrd 
+kubectl create secret generic app-secret --from-literal=DB_Host=mysql --from-literal=DB_User=root --from-literal=DB_Password=paswrd
 ```
