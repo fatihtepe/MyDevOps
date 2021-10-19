@@ -606,6 +606,19 @@ k auth can-i create deployments
 k auth can-i delete nodes
 ```
 
+```
+k create serviceaccount dashboard-sa
+```
+
+```
+k get serviceaccount
+```
+```
+k create serviceaccount dashboard-sa
+```
+```
+k describe secret dashboard-sa-token-kbbdm 
+```
 
 
 
