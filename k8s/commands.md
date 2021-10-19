@@ -565,3 +565,46 @@ kubectl create secret generic app-secret --from-literal=DB_Host=mysql --from-lit
 ```
 kubectl describe pod
 ```
+
+## Authenticate User
+```
+curl -v -k https://master-node-ip:6443/api/v1/pods -u "user1:password123"
+```
+
+--<!-- markdownlint-capture -->
+
+![tls](./img/tls.png) ![publickey](./img/publickey.png) ![privatekey](./img/privatekey.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`reference=> kodekloud
