@@ -576,14 +576,35 @@ curl -v -k https://master-node-ip:6443/api/v1/pods -u "user1:password123"
 ![tls](./img/tls.png) ![publickey](./img/publickey.png) ![privatekey](./img/privatekey.png)
 
 
+```
+cat /etc/kubernetes/manifest/kube-apiserver.yaml
+```
 
+```
+kubectl config view
+```
+```
+kubectl config view --kubeconfig=my-custom-config
+```
+```
+kubectl config -h
+```
+## RBAC
 
+```
+k get roles
+```
+```
+k get rolebindings
+```
+### check access
 
-
-
-
-
-
+```
+k auth can-i create deployments
+```
+```
+k auth can-i delete nodes
+```
 
 
 
