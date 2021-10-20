@@ -35,3 +35,7 @@ Groovy-- It’s similar to java but simpler because it’s much more dynamic. It
 [10 Best Practices for building Jenkins Pipeline](https://azeynalli1990.medium.com/10-best-practices-for-building-jenkins-pipeline-4c0b58acd4a3)
 
 In DevOps world Jenkins is the most used CI/CD tool along with GitLab. Almost every Full-Stack Developer or DevOps Engineer has come across with writing Jenkins Pipeline for automation purposes. Apache Groovy brings great flexibility for writing Pipeline scripts. Based on my personal experience and with some research I will try to point out…
+
+[How to configure Jenkins with High Availability?](https://opcitotechnologies.medium.com/how-to-configure-jenkins-with-high-availability-34e24bfa789a)
+
+In our quest for faster application development, we have invented, tested, and implemented several practices that have revolutionized the way we develop applications. Continuous Integration (CI) is one such DevOps practice, which has augmented the speed of application development by coupling skills of developers with an arsenal of tools. Jenkins is a popular CI tool used to automate complex tasks. As the infrastructure grows, you have to start thinking about securing and load balancing CI/CD tools with Jenkins, which is the heart of any DevOps culture.
