@@ -1,0 +1,12 @@
+plugin: aws_ec2
+regions:
+  - "us-east-1"
+keyed_groups:
+  - key: tags.Name
+    prefix: "Name"
+  - key: tags.role
+    prefix: "role"
+  - key: tags.boss
+    prefix: "boss"
+compose:
+  ansible_host: public_ip_address
