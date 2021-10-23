@@ -12,3 +12,7 @@ This is a step by step guide to configure ssh connection with your GitHub accoun
 - Run `gh auth login` to authenticate with your GitHub account
 
 -	Create a repo `gh repo create my-project`
+
+[Is it possible to clone only part of a git project?](https://unix.stackexchange.com/questions/233327/is-it-possible-to-clone-only-part-of-a-git-project)
+
+You will end up downloading the entire history, so I don't see much benefit in it, but you can checkout specific parts using a "sparse" checkout.
