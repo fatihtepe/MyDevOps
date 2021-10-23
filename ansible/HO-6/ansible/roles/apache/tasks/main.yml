@@ -1,0 +1,18 @@
+---
+# tasks file for /home/ec2-user/ansible/roles/apache
+
+- name: installing apache
+  yum:
+    name: httpd
+    state: latest
+
+- name: index.html
+  copy:
+    src: "index.html"
+    dest: /var/www/html/
+- name: restart apache2
+  service:
+    name: httpd
+    state: restarted
+    enabled: yes
+
