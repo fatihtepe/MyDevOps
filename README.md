@@ -7,6 +7,8 @@ All about DevOps!
 
 [Summary of DevOps Tools-edureka!](https://medium.com/edureka/devops-tutorial-89363dac9d3f)
 
+[Node Weekly](https://nodeweekly.com/issues/410)
+
 [crontab guru](https://crontab.guru/)
 The quick and simple editor for cron schedule expressions by Cronitor
 
