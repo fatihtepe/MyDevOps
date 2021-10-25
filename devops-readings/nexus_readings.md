@@ -1,0 +1,5 @@
+[Repository Manager](https://help.sonatype.com/repomanager3/)
+
+Welcome to the Help Portal for Nexus Repository Manager (NXRM) 3.
+
+If you are developing software without a repository manager, you are likely missing a number of opportunities to reduce some pretty obvious inefficiencies. If everyone on your team has to hit public repositories like the Central Repository to download components, you are missing out on some simple gains in speed and efficiency. If you don't have a local place to deploy components you are forced to share binary components using half-measures and compromises such as storing binaries in source control. Stop developing in the Dark Ages, read this guide, and start using a repository manager. Trust us, once you start using a Nexus Repository Manager, you'll wonder how you ever functioned without it.
