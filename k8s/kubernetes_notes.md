@@ -1,3 +1,10 @@
+[Install Kubernetes from Scratch](https://www.youtube.com/watch?v=uUupRagM7m0&list=PL2We04F3Y_41jYdadX55fdJplDvgNGENo)
+
+All the instructions required to deploy this cluster is recorded in the github repository here.
+
+ https://github.com/mmumshad/kubernetes-the-hard-way
+Credits: https://github.com/kelseyhightower/kubernetes-the-hard-way
+
 `!!!`(click => `***` for info and references)
 - A `container runtime` is software that executes containers and manages container images on a node. [***](https://kubernetes.io/blog/2018/05/24/kubernetes-containerd-integration-goes-ga/)
 
