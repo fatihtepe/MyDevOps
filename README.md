@@ -12,11 +12,15 @@ All about DevOps!
 [crontab guru](https://crontab.guru/)
 The quick and simple editor for cron schedule expressions by Cronitor
 
-[YAML Lint](http://www.yamllint.com/)<br>
-- Paste in your YAML and click "Go" - we'll tell you if it's valid or not, and give you a nice clean UTF-8 version of it. Optimized for Ruby.<br>
----
-[JSON to YAML](https://www.json2yaml.com/)<br>
-* Convert JSON to YAML online
+[YAML Lint](http://www.yamllint.com/)
+
+Paste in your YAML and click "Go" - we'll tell you if it's valid or not, and give you a nice clean UTF-8 version of it. Optimized for Ruby.
+
+[JSON to YAML](https://www.json2yaml.com/)
+
+Convert JSON to YAML online
+
+[JSONPath Online Evaluator](https://jsonpath.com/)
 
 ## Managed policies in job function status are listed below:
 
@@ -64,4 +68,3 @@ As a technical person, I fetch some regular basis tasks. There are tasks that we
 [Use a tool like Faker for creating mock data in your database](https://github.com/faker-ruby/faker)
 
 
-updated 091421
