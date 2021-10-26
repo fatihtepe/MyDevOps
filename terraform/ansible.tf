@@ -5,8 +5,8 @@
 
 provider "aws" {
   region = "us-east-1"
-#   access_key = "AKIA33KVYFLTLW7ERL73"
-#   secret_key = "rVsBc+n2F1exgX4IRxuzZzUYb4aSFETohOfMwwwn"
+#   access_key = "XXXXXXXXXXXXXXXXX"
+#   secret_key = "XXXXXXXXXXXXXXXX"
   //  If you have entered your credentials in AWS CLI before, you do not need to use these arguments.
 }
 
