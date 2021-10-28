@@ -21,3 +21,4 @@ Exercises get you ready for the Certified Kubernetes Application Developer exam
 
 [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
+[CKA Exam Experiences & Tips](https://www.linkedin.com/pulse/cka-exam-experiences-tips-farooq-shaikh/?trackingId=Zksogo4akOSStz3T%2F5HRCA%3D%3D)
