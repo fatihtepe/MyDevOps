@@ -55,3 +55,15 @@ Kubernetes
 23. command to check the container logs in pod?
 24. what are the types of services present in kubernetes?
 25. What is the link between pod and service?
+
+
+
+---- ---------------
+
+- Can you touch a little bit Tomcat and NGNIX Services?
+
+- Can you give us example some infrastructure using ECS?
+
+- You hosted the page on ECS, just a simple website, then someone click on that webpage how the data travel thru from the different AWS services communicate that ECS cluster
+
+- How is connect from my computer to ECS application and from application to my computer?
