@@ -1,0 +1,345 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2021-10-31T21:57:17Z"
+    generateName: mezin-668df46487-
+    labels:
+      app: mezin
+      pod-template-hash: 668df46487
+    name: mezin-668df46487-8tw49
+    namespace: ez
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: mezin-668df46487
+      uid: 366b0e77-a5e3-475f-af93-d99cf80a8d0a
+    resourceVersion: "317522"
+    uid: 6400b0ee-052d-4f26-8b28-37227e0d0332
+  spec:
+    containers:
+    - image: nginx:1.8.1
+      imagePullPolicy: Always
+      name: nginx
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-k8m8s
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: minikube
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - name: kube-api-access-k8m8s
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2021-10-31T21:57:17Z"
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2021-11-01T19:23:09Z"
+      status: "True"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2021-11-01T19:23:09Z"
+      status: "True"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2021-10-31T21:57:17Z"
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - containerID: docker://1566db0847022cfdd8a254f9a3d8d81edb8b725b0b3d22daa13302249742d1f2
+      image: nginx:1.8.1
+      imageID: docker-pullable://nginx@sha256:9b3e9f189890ef9d6713c3384da3809731bdb0bff84e7b68da330ebadf533085
+      lastState:
+        terminated:
+          containerID: docker://14b481a26bbcfb003483f86a5d980ab6a886a684cbb573644256ca23b569ac18
+          exitCode: 255
+          finishedAt: "2021-11-01T19:22:46Z"
+          reason: Error
+          startedAt: "2021-10-31T21:57:19Z"
+      name: nginx
+      ready: true
+      restartCount: 1
+      started: true
+      state:
+        running:
+          startedAt: "2021-11-01T19:23:08Z"
+    hostIP: 192.168.49.2
+    phase: Running
+    podIP: 172.17.0.5
+    podIPs:
+    - ip: 172.17.0.5
+    qosClass: BestEffort
+    startTime: "2021-10-31T21:57:17Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2021-10-31T15:35:21Z"
+    generateName: mezin-668df46487-
+    labels:
+      app: mezin
+      pod-template-hash: 668df46487
+    name: mezin-668df46487-bh9cs
+    namespace: ez
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: mezin-668df46487
+      uid: 366b0e77-a5e3-475f-af93-d99cf80a8d0a
+    resourceVersion: "317499"
+    uid: 26935ab0-069f-46ce-b4cd-b845f3ff75ad
+  spec:
+    containers:
+    - image: nginx:1.8.1
+      imagePullPolicy: Always
+      name: nginx
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-2zvf7
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: minikube
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - name: kube-api-access-2zvf7
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2021-10-31T15:35:21Z"
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2021-11-01T19:23:08Z"
+      status: "True"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2021-11-01T19:23:08Z"
+      status: "True"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2021-10-31T15:35:21Z"
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - containerID: docker://72e560ec1bb8ab3a5012294347e573473860cc14b0657e89d28133c39c548c9f
+      image: nginx:1.8.1
+      imageID: docker-pullable://nginx@sha256:9b3e9f189890ef9d6713c3384da3809731bdb0bff84e7b68da330ebadf533085
+      lastState:
+        terminated:
+          containerID: docker://911003a52ca07cd3b42b50e4a0fda405a6dcdaf6d3711ada1f233836f2f63dcc
+          exitCode: 255
+          finishedAt: "2021-11-01T19:22:46Z"
+          reason: Error
+          startedAt: "2021-10-31T15:35:23Z"
+      name: nginx
+      ready: true
+      restartCount: 1
+      started: true
+      state:
+        running:
+          startedAt: "2021-11-01T19:23:07Z"
+    hostIP: 192.168.49.2
+    phase: Running
+    podIP: 172.17.0.3
+    podIPs:
+    - ip: 172.17.0.3
+    qosClass: BestEffort
+    startTime: "2021-10-31T15:35:21Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2021-10-31T15:35:23Z"
+    generateName: mezin-668df46487-
+    labels:
+      app: mezin
+      pod-template-hash: 668df46487
+    name: mezin-668df46487-crfpc
+    namespace: ez
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: mezin-668df46487
+      uid: 366b0e77-a5e3-475f-af93-d99cf80a8d0a
+    resourceVersion: "317505"
+    uid: b652a737-ab25-429a-b956-f68191b6d292
+  spec:
+    containers:
+    - image: nginx:1.8.1
+      imagePullPolicy: Always
+      name: nginx
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-8mhsk
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: minikube
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - name: kube-api-access-8mhsk
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2021-10-31T15:35:23Z"
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2021-11-01T19:23:08Z"
+      status: "True"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2021-11-01T19:23:08Z"
+      status: "True"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2021-10-31T15:35:23Z"
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - containerID: docker://5e4c7628391fd16e5338273527ce683bab9748f237c217dcd2a683117df4de51
+      image: nginx:1.8.1
+      imageID: docker-pullable://nginx@sha256:9b3e9f189890ef9d6713c3384da3809731bdb0bff84e7b68da330ebadf533085
+      lastState:
+        terminated:
+          containerID: docker://7d8ee3af971717c68909334e640d6ec122753c2953b6b7cc7602550cb61cf5b6
+          exitCode: 255
+          finishedAt: "2021-11-01T19:22:46Z"
+          reason: Error
+          startedAt: "2021-10-31T15:35:25Z"
+      name: nginx
+      ready: true
+      restartCount: 1
+      started: true
+      state:
+        running:
+          startedAt: "2021-11-01T19:23:07Z"
+    hostIP: 192.168.49.2
+    phase: Running
+    podIP: 172.17.0.2
+    podIPs:
+    - ip: 172.17.0.2
+    qosClass: BestEffort
+    startTime: "2021-10-31T15:35:23Z"
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
