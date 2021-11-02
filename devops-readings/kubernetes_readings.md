@@ -97,3 +97,8 @@ A Lens which will make you a Kubernetes Superman
 As I was working recently on Kubernetes especially on minikube as were using it for the production environment.
 I was really frustrated with the fact that minikube dashboard is very bad and lacking many features. Also, I was using the minikube Kube config file to manage resources…
 For DevOps engineers, there is a constant struggle while debugging errors on Kubernetes.
+
+[Kubernetes Deep Dive: Service and Ingress](https://aws.plainenglish.io/kubernetes-deep-dive-service-and-ingress-541ea3a70544)
+
+k8s Ingress is an API object that manages external access to the services in a cluster. Ingress exposes HTTP and HTTPS routes from outside the cluster to services within the cluster. Traffic routing is controlled by rules defined on the Ingress resource. Below is a simple example:
+![ingress](/MyDevOps/img/ingress.png)

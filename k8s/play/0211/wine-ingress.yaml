@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: wine-ingress
+spec:
+  rules:
+  - host: wine.sample.com
+    http:
+      paths:
+      - path: /white
+        pathType: Prefix
+        backend:
+          service:
+            name: white-wine-svc
+            port:
+              number: 80
+      - path: /red
+        pathType: Prefix
+        backend:
+          service:
+            name: red-wine-svc
+            port:
+              number: 80
