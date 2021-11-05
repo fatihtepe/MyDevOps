@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: voting-app-pod
   labels:
-    name: voting-pod-pod
+    name: voting-app-pod
     app: demo-voting-app
 spec:
   containers:
@@ -11,4 +11,4 @@ spec:
       image: kodekloud/examplevotingapp_vote:v1
       ports:
         - containerPort: 80
-          
+

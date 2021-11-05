@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   name: postgres-pod
   labels:
-    name: postrgres-pod
+    name: postgres-pod
     app: demo-voting-app
 spec:
   containers:
-    - name: postgress
-      image: postgress
+    - name: postgres
+      image: postgres
       ports:
         - containerPort: 5432
       env:
