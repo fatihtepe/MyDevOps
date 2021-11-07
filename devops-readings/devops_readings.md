@@ -113,3 +113,7 @@ That part that no one wants to bring up when we talk about DevOps. I know guys, 
 
 Whether you are a Linux system administrator or a DevOps engineer, you spend a lot of time tracking performance metrics on your servers.
 You may sometimes have instances that are running very slow without having any real clues of what the issues might be.
+
+[The Modern DevOps Toolbox](https://medium.com/akava/the-modern-devops-toolbox-part-1-of-3-5d5c317052b0)
+DevOps. Is it just a buzzword? A collection of software tools? A job title? Unfortunately, one of the most critical facets of DevOps often gets lost in the noise and debate about what it really “is”. More importantly: what is the goal of Devops?
+For enterprises that want to succeed at DevOps, this goal should be at the forefront of any software choice, engineering hire, or process change. Simply put: the goal of DevOps is to holistically enable engineering teams and organizations to deploy applications and software faster, easier, and safer.
