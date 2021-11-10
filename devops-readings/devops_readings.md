@@ -121,3 +121,7 @@ For enterprises that want to succeed at DevOps, this goal should be at the foref
 [Explaining CI/CD pipelines with a real life example](https://debora-piu.medium.com/understand-ci-cd-pipelines-with-real-life-examples-2e6977e79db0)
 
 I’m sure you searched it and discovered that CI means Continuous Integration and CD, Continuous Delivery or Deployment, but what does it actually mean?
+
+[The Pathway to DevOps](https://moabukar.medium.com/my-pathway-to-devops-22f9f0cc950)
+
+How to get started in DevOps? Resources, advice and a pathway you can follow to get you started and find your foot as a DevOps Engineer, Platform Engineer, Cloud Engineer or Infrastructure Engineer.
