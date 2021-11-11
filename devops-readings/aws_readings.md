@@ -217,3 +217,7 @@ If you want to get quick visual insights what privilege escalation paths are pos
 [AWS VPC Diagram Generator](https://alanblackmore.medium.com/aws-vpc-diagram-generator-242002ad4c75)
 
 When you are working with AWS VPC infrastructure, there are many many reasons why you can benefit from accurate automatically generated infrastructure diagrams.
+
+[How to Get a Cloud Job without Experience](https://neal-davis.medium.com/how-to-get-a-cloud-job-without-experience-50d81f3ccffb)
+
+The big problem with breaking into the world of cloud computing is that there can often be a barrier to entry which is a lack of experience in cloud. Whilst this is something that is hard to overcome (especially if you are trying to land your first technical role) it is not impossible!
