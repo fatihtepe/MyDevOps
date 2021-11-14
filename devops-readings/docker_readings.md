@@ -19,3 +19,8 @@ According to a recent Forbes article, container adoption is growing rapidly in t
 [How to create a Dockerfile with some dockerfile examples](https://linuxtechlab.medium.com/how-to-create-a-dockerfile-with-some-dockerfile-examples-f6d645563bb2)
 
 Dockerfile is a text file that contains a list of commands that are used to build a docker image automatically. Basically, a docker file acts as a set of instructions that are needed to build a docker image.
+
+
+[How to copy a file from a Docker container to the host](https://faun.pub/how-to-copy-a-file-from-a-docker-container-to-the-host-77370406c0c9)
+
+If you want to download a file from a Docker container, it’s simple with the `docker cp` command. But, if the container is inside a cluster of Docker machines, it could be more complicated…
