@@ -10,3 +10,6 @@ I passed the AWS Solutions Architect Associate exam in January 2021 with a score
 
 Although I didn’t really have AWS background, I could pass the SAA-C02 exam so I’d like to share my story of how I went as a non-native English speaker.
 
+[How I passed AWS Certified Solutions Architect Exam in One Month](https://thepoints.medium.com/how-i-passed-aws-certified-solutions-architect-exam-in-one-month-without-any-prior-experience-a1f66dc4dfb3)
+
+In this post, I would like to share with you all the study materials that I actually used to prepare for the exam. I don’t get any commission for recommending these materials just to give you my genuine feedback.
