@@ -125,3 +125,7 @@ I’m sure you searched it and discovered that CI means Continuous Integration a
 [The Pathway to DevOps](https://moabukar.medium.com/my-pathway-to-devops-22f9f0cc950)
 
 How to get started in DevOps? Resources, advice and a pathway you can follow to get you started and find your foot as a DevOps Engineer, Platform Engineer, Cloud Engineer or Infrastructure Engineer.
+
+[Is DevOps the hottest IT position out there?](https://blog.landing.jobs/is-devops-the-hottest-it-position-out-there-7492fdb441e9)
+
+DevOps is here to stay. The future scope of DevOps is bright and increasing day by day. As more companies are using it, many and many DevOps positions are being created every day, increasing the importance of it inside the organisation and making it one of the best paid IT positions in the market right now.
