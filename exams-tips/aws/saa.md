@@ -13,3 +13,7 @@ Although I didn’t really have AWS background, I could pass the SAA-C02 exam so
 [How I passed AWS Certified Solutions Architect Exam in One Month](https://thepoints.medium.com/how-i-passed-aws-certified-solutions-architect-exam-in-one-month-without-any-prior-experience-a1f66dc4dfb3)
 
 In this post, I would like to share with you all the study materials that I actually used to prepare for the exam. I don’t get any commission for recommending these materials just to give you my genuine feedback.
+
+[AWS Certified Cloud Practitioner : Overview and tips](https://medium.com/@jayjoshi1/aws-cloud-practitioner-704d5d5e1f66)
+
+AWS Cloud Practitioner is the most basic and easiest of the 13 (as of Sept ’21) AWS certifications. The target audience is practitioners with basic IT and Cloud Knowledge. I’ve personally see this help a lot of sales engineers and business folks take this examination. If you plan to go heavy on technical side, you might want to appear for AWS Solutions Architect Associate.
