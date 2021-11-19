@@ -17,3 +17,7 @@ In this post, I would like to share with you all the study materials that I actu
 [AWS Certified Cloud Practitioner : Overview and tips](https://medium.com/@jayjoshi1/aws-cloud-practitioner-704d5d5e1f66)
 
 AWS Cloud Practitioner is the most basic and easiest of the 13 (as of Sept ’21) AWS certifications. The target audience is practitioners with basic IT and Cloud Knowledge. I’ve personally see this help a lot of sales engineers and business folks take this examination. If you plan to go heavy on technical side, you might want to appear for AWS Solutions Architect Associate.
+
+[How to prepare for AWS Solutions Architect Associate Certification](https://medium.com/@badawekoo/how-to-prepare-for-aws-solutions-architect-associate-certification-87ef2455f346)
+
+This is to demonstrate how to prepare then pass AWS Certified Solutions Architect associate exam from home.
