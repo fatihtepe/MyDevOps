@@ -102,3 +102,7 @@ For DevOps engineers, there is a constant struggle while debugging errors on Kub
 
 k8s Ingress is an API object that manages external access to the services in a cluster. Ingress exposes HTTP and HTTPS routes from outside the cluster to services within the cluster. Traffic routing is controlled by rules defined on the Ingress resource. Below is a simple example:
 ![ingress](/MyDevOps/img/ingress.png)
+
+[RancherOS](https://github.com/rancher/os/blob/master/README.md/#user-content-amazon)
+
+The smallest, easiest way to run Docker in production at scale. Everything in RancherOS is a container managed by Docker. This includes system services such as udev and rsyslog. RancherOS includes only the bare minimum amount of software needed to run Docker. This keeps the binary download of RancherOS very small. Everything else can be pulled in dynamically through Docker.
