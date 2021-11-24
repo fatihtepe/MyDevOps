@@ -220,4 +220,8 @@ When you are working with AWS VPC infrastructure, there are many many reasons wh
 
 [How to Get a Cloud Job without Experience](https://neal-davis.medium.com/how-to-get-a-cloud-job-without-experience-50d81f3ccffb)
 
-The big problem with breaking into the world of cloud computing is that there can often be a barrier to entry which is a lack of experience in cloud. Whilst this is something that is hard to overcome (especially if you are trying to land your first technical role) it is not impossible!
+The big problem with breaking into the world of cloud computing is that there can often be a barrier to entry which is a lack of experience in cloud. Whilst this is something that is hard to overcome (especially if you are trying to land your first technical role) it is not impossible
+
+[10 Boto3 scripts to simplify your AWS journey](https://devopslearning.medium.com/10-boto3-scripts-to-simplify-your-aws-journey-ad6ce6f99852)
+
+If you are using AWS, you will definitely understand the importance of Boto3. Boto3 is the Amazon Web Services (AWS) SDK for Python. It enables Python developers to create, configure, and manage AWS services, such as EC2 and S3. Boto3 provides an easy-to-use, object-oriented API, as well as low-level access to AWS services.
