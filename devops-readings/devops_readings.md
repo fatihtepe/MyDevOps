@@ -129,3 +129,7 @@ How to get started in DevOps? Resources, advice and a pathway you can follow to 
 [Is DevOps the hottest IT position out there?](https://blog.landing.jobs/is-devops-the-hottest-it-position-out-there-7492fdb441e9)
 
 DevOps is here to stay. The future scope of DevOps is bright and increasing day by day. As more companies are using it, many and many DevOps positions are being created every day, increasing the importance of it inside the organisation and making it one of the best paid IT positions in the market right now.
+
+[Third month in DevOps](https://monotiller.medium.com/third-month-in-devops-6002e5a79c68)
+
+My third and final month in training comes to a close. We focussed a lot on configuration and orchestration tools as well as a final project to bring everything together.
