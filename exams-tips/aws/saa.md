@@ -25,3 +25,7 @@ This is to demonstrate how to prepare then pass AWS Certified Solutions Architec
 [How to Prepare for AWS Solution Architect Associate Certification (SAA-C01 & SAA-C02) Exam in 2021](https://medium.com/javarevisited/how-to-prepare-for-aws-solution-architect-associate-certification-saa-c01-saa-c02-exam-in-2021-a6e7e7e771fc)
 
 There is no doubt that AWS certification is precious and opens the door for a lot of opportunities, not just for system admins but also for developers and DevOps Engineers.
+
+[AWS CERTIFIED SOLUTIONS ARCHITECT SAA-C02 : HOW TO BEST PREPARE IN 5 STEPS](https://medium.com/digital-cloud-training/aws-certified-solutions-architect-saa-c02-how-to-best-prepare-in-5-steps-429e0d5797c5)
+
+Recently, AWS announced the launch of a new version of the most popular certification in their program, the AWS Certified Solutions Architect Associate. The new exam has a code of SAA-C02 and replaces the previous SAA-C01 exam as of 23 March 2020.
