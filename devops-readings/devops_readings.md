@@ -133,3 +133,7 @@ DevOps is here to stay. The future scope of DevOps is bright and increasing day 
 [Third month in DevOps](https://monotiller.medium.com/third-month-in-devops-6002e5a79c68)
 
 My third and final month in training comes to a close. We focussed a lot on configuration and orchestration tools as well as a final project to bring everything together.
+
+[An Introduction to YAML For DevOps](https://faun.pub/an-introduction-to-yaml-for-devops-fff422d8805d)
+
+“YAML, short for YAML Ain’t Markup Language, is a data serialization language that is often used in writing configuration files.”
