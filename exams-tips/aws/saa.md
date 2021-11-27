@@ -29,3 +29,7 @@ There is no doubt that AWS certification is precious and opens the door for a lo
 [AWS CERTIFIED SOLUTIONS ARCHITECT SAA-C02 : HOW TO BEST PREPARE IN 5 STEPS](https://medium.com/digital-cloud-training/aws-certified-solutions-architect-saa-c02-how-to-best-prepare-in-5-steps-429e0d5797c5)
 
 Recently, AWS announced the launch of a new version of the most popular certification in their program, the AWS Certified Solutions Architect Associate. The new exam has a code of SAA-C02 and replaces the previous SAA-C01 exam as of 23 March 2020.
+
+[AWS Solutions Architect Certification: Tips to fast-track your preparation](https://medium.com/@bansaridesai/aws-solutions-architect-certification-tips-to-fast-track-your-preparation-9fd05c464543)
+
+One of my goals this year was to give the AWS Solutions Architect Associate Exam. I have been working with AWS almost every day for more than three years now. During that time I have presented many workshops and semniars on various AWS related topics. So what was the point of getting certified now?
