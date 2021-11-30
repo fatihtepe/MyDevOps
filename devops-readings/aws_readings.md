@@ -225,3 +225,7 @@ The big problem with breaking into the world of cloud computing is that there ca
 [10 Boto3 scripts to simplify your AWS journey](https://devopslearning.medium.com/10-boto3-scripts-to-simplify-your-aws-journey-ad6ce6f99852)
 
 If you are using AWS, you will definitely understand the importance of Boto3. Boto3 is the Amazon Web Services (AWS) SDK for Python. It enables Python developers to create, configure, and manage AWS services, such as EC2 and S3. Boto3 provides an easy-to-use, object-oriented API, as well as low-level access to AWS services.
+
+[New – AWS Control Tower Account Factory for Terraform](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform/)
+
+[HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform)
