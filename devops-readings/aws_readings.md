@@ -229,3 +229,7 @@ If you are using AWS, you will definitely understand the importance of Boto3. Bo
 [New – AWS Control Tower Account Factory for Terraform](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform/)
 
 [HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform)
+
+[AWS Migration -Migrating On-Premise Application To Cloud](https://mohtasham9.medium.com/aws-migration-migrating-on-premise-application-to-cloud-97bd41f68a90)
+
+Irrespective of the business, organizations always experience competition. Hence staying updated with the market needs, becomes a must, and ‘time’ becomes an integral constituent. What if there was a way business could focus on their business goals and outsource their maintenance and monitoring tasks somewhere else. Would that help save time & meet the market needs with more efficiency? Migrating to cloud lets you do exactly the same. This AWS Migration article would walk you through all the necessary pointers that you need to consider before you plan to migrate to Cloud.
