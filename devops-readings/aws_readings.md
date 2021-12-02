@@ -233,3 +233,7 @@ If you are using AWS, you will definitely understand the importance of Boto3. Bo
 [AWS Migration -Migrating On-Premise Application To Cloud](https://mohtasham9.medium.com/aws-migration-migrating-on-premise-application-to-cloud-97bd41f68a90)
 
 Irrespective of the business, organizations always experience competition. Hence staying updated with the market needs, becomes a must, and ‘time’ becomes an integral constituent. What if there was a way business could focus on their business goals and outsource their maintenance and monitoring tasks somewhere else. Would that help save time & meet the market needs with more efficiency? Migrating to cloud lets you do exactly the same. This AWS Migration article would walk you through all the necessary pointers that you need to consider before you plan to migrate to Cloud.
+
+[How To Deploy Python APIs on AWS EKS using HELM](https://medium.com/bb-tutorials-and-thoughts/how-to-deploy-python-apis-on-aws-eks-using-helm-eb5c15ebb607)
+
+Kubernetes is one of the rapidly growing technology and all the companies are adopting it nowadays. When you run any application on Kubernetes you need to deploy so many objects such as deployment, configmap, secrets, etc. You need to define all these objects in the manifest.yml file and send these files to the Kubernetes API server. The Kubernetes reads these manifest files and creates the objects as desired.
