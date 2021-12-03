@@ -33,3 +33,7 @@ Recently, AWS announced the launch of a new version of the most popular certific
 [AWS Solutions Architect Certification: Tips to fast-track your preparation](https://medium.com/@bansaridesai/aws-solutions-architect-certification-tips-to-fast-track-your-preparation-9fd05c464543)
 
 One of my goals this year was to give the AWS Solutions Architect Associate Exam. I have been working with AWS almost every day for more than three years now. During that time I have presented many workshops and semniars on various AWS related topics. So what was the point of getting certified now?
+
+[AWS Associate Cloud Architect Exam Preperation](https://medium.com/@aliabbasjaffri_/aws-associate-cloud-architect-exam-preperation-d5dbe17ffe9b)
+
+Has it occurred to you that you want to appear for AWS Certified Solutions Architect Associate exam (SAA-02), but are intimidated by the exam content scope and time required to master all those topics? Well, it might just make your day to know that you’re not alone. In fact, a lot of people who appeared along with me for the exam went through the same thought process! It can be frightening (and of course annoying) to feel that you’re back to school again by preparing for an exam, but there are a few tips from my experience that I believe you can use to prepare better and be able to ace the exam on the big day!
