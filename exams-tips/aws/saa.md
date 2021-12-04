@@ -37,3 +37,7 @@ One of my goals this year was to give the AWS Solutions Architect Associate Exam
 [AWS Associate Cloud Architect Exam Preperation](https://medium.com/@aliabbasjaffri_/aws-associate-cloud-architect-exam-preperation-d5dbe17ffe9b)
 
 Has it occurred to you that you want to appear for AWS Certified Solutions Architect Associate exam (SAA-02), but are intimidated by the exam content scope and time required to master all those topics? Well, it might just make your day to know that you’re not alone. In fact, a lot of people who appeared along with me for the exam went through the same thought process! It can be frightening (and of course annoying) to feel that you’re back to school again by preparing for an exam, but there are a few tips from my experience that I believe you can use to prepare better and be able to ace the exam on the big day!
+
+[How I passed my AWS Cloud Practitioner Exam on My First Trial (25/11/2021).](https://medium.com/@richards.okiemute/how-i-passed-my-aws-cloud-practitioner-exam-on-my-first-trial-25-11-2021-e3ef613cabd6)
+
+AWS Certified Cloud Practitioner is intended for anyone who has basic knowledge of the AWS platform. Basic understanding of IT services and their uses in the AWS Cloud platform. Knowledge of core AWS services and use cases, billing and pricing models, security concepts, and how cloud impacts your business.
