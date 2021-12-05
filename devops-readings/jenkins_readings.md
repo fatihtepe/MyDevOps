@@ -39,3 +39,7 @@ In DevOps world Jenkins is the most used CI/CD tool along with GitLab. Almost ev
 [How to configure Jenkins with High Availability?](https://opcitotechnologies.medium.com/how-to-configure-jenkins-with-high-availability-34e24bfa789a)
 
 In our quest for faster application development, we have invented, tested, and implemented several practices that have revolutionized the way we develop applications. Continuous Integration (CI) is one such DevOps practice, which has augmented the speed of application development by coupling skills of developers with an arsenal of tools. Jenkins is a popular CI tool used to automate complex tasks. As the infrastructure grows, you have to start thinking about securing and load balancing CI/CD tools with Jenkins, which is the heart of any DevOps culture.
+
+[Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
+
+What does it take to create a winning software company? The ability to deliver valuable software, and deliver it fast. How can we guarantee this high-speed service? A Continuous Delivery (CD) process, supported by a perfected Continuous Integration (CI) mechanism to provide flawless delivery, especially when components of a platform increase in numbers and dependencies.
