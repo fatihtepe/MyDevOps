@@ -1,3 +1,7 @@
+[What’s new for AWS Certified Solutions Architect Associate SAA-C02?](https://medium.com/@stephane.maarek/whats-new-for-aws-certified-solutions-architect-associate-saa-c02-43774095662)
+
+I have updated 4 hours of content and added an extra 4 hours of content dedicated to knowledge for the SAA-C02 exam, bringing the total video time of the course to 22 hours.
+
 [AWS Solution Architect Associate Certification — Study Notes](https://towardsaws.com/aws-solution-architect-associate-certification-study-notes-c32f50503f8a)
 
 This article provides a last-minute revision summary of major topics for your upcoming AWS Solution Architect Associate certification exam. Use this article to brush up on some of the key concepts which are very much relevant to the certification exam questions. This article will be updated regularly to add more tips as per exams.
