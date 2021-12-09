@@ -1,4 +1,4 @@
-[What’s new for AWS Certified Solutions Architect Associate SAA-C02?](https://medium.com/@stephane.maarek/whats-new-for-aws-certified-solutions-architect-associate-saa-c02-43774095662)
+[What’s new for AWS Certified Solutions Architect Associate SAA-C02?_Stéphane Maarek](https://medium.com/@stephane.maarek/whats-new-for-aws-certified-solutions-architect-associate-saa-c02-43774095662)
 
 I have updated 4 hours of content and added an extra 4 hours of content dedicated to knowledge for the SAA-C02 exam, bringing the total video time of the course to 22 hours.
 
@@ -45,3 +45,8 @@ Has it occurred to you that you want to appear for AWS Certified Solutions Archi
 [How I passed my AWS Cloud Practitioner Exam on My First Trial (25/11/2021).](https://medium.com/@richards.okiemute/how-i-passed-my-aws-cloud-practitioner-exam-on-my-first-trial-25-11-2021-e3ef613cabd6)
 
 AWS Certified Cloud Practitioner is intended for anyone who has basic knowledge of the AWS platform. Basic understanding of IT services and their uses in the AWS Cloud platform. Knowledge of core AWS services and use cases, billing and pricing models, security concepts, and how cloud impacts your business.
+
+[AWS cloud practitioner — A study guide
+](https://medium.com/adventures-in-consumer-technology/aws-cloud-practitioner-a-study-guide-86f4c143c5ef)
+
+Pass without paying for online courses or practice papers.
