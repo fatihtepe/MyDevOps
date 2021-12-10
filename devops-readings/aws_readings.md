@@ -237,3 +237,12 @@ Irrespective of the business, organizations always experience competition. Hence
 [How To Deploy Python APIs on AWS EKS using HELM](https://medium.com/bb-tutorials-and-thoughts/how-to-deploy-python-apis-on-aws-eks-using-helm-eb5c15ebb607)
 
 Kubernetes is one of the rapidly growing technology and all the companies are adopting it nowadays. When you run any application on Kubernetes you need to deploy so many objects such as deployment, configmap, secrets, etc. You need to define all these objects in the manifest.yml file and send these files to the Kubernetes API server. The Kubernetes reads these manifest files and creates the objects as desired.
+
+[AWS Solutions Architect Certification — Elastic Compute Cloud, overview](https://andrecamillo.medium.com/aws-solutions-architect-certification-elastic-compute-cloud-overview-cb471c923d76)
+
+Alright, so I’m going to follow a template to discuss the main services in AWS.
+The order of how I’m tackling these topics will follow this structure:
+* Define what the service is
+* Why they exist
+* How to use it
+* Secure it
