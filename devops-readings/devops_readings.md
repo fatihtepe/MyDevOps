@@ -137,3 +137,7 @@ My third and final month in training comes to a close. We focussed a lot on conf
 [An Introduction to YAML For DevOps](https://faun.pub/an-introduction-to-yaml-for-devops-fff422d8805d)
 
 “YAML, short for YAML Ain’t Markup Language, is a data serialization language that is often used in writing configuration files.”
+
+[State of DevOps](https://medium.com/@testep02/state-of-devops-84203fe48d6f)
+
+I have been fortunate in my career to have had the perfect blend of experience to land in a DevOps role. I spent nearly 15 years as a software engineer and another 4 as a Scrum Master. When I was asked to take on the lead DevOps role of a startup, I had no idea what I was getting into. I had never heard of DevOps.
