@@ -141,3 +141,7 @@ My third and final month in training comes to a close. We focussed a lot on conf
 [State of DevOps](https://medium.com/@testep02/state-of-devops-84203fe48d6f)
 
 I have been fortunate in my career to have had the perfect blend of experience to land in a DevOps role. I spent nearly 15 years as a software engineer and another 4 as a Scrum Master. When I was asked to take on the lead DevOps role of a startup, I had no idea what I was getting into. I had never heard of DevOps.
+
+[Introduction to DevOps](https://phifertoo.medium.com/introduction-to-devops-cca34e3f4523)
+
+Whenever I hear DevOps, I think about deployments. Many people have different definitions and interpretations of DevOps. In my opinion, DevOps is simply a paradigm to improve the development lifecycle.
