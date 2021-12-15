@@ -43,3 +43,6 @@ In our quest for faster application development, we have invented, tested, and i
 [Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
 
 What does it take to create a winning software company? The ability to deliver valuable software, and deliver it fast. How can we guarantee this high-speed service? A Continuous Delivery (CD) process, supported by a perfected Continuous Integration (CI) mechanism to provide flawless delivery, especially when components of a platform increase in numbers and dependencies.
+
+[Running Terraform with Jenkins Pipelines](https://medium.com/@pb8226/running-terraform-with-jenkins-pipelines-f29a8cb861d4)
+
