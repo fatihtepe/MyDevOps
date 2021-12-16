@@ -49,4 +49,6 @@ AWS Certified Cloud Practitioner is intended for anyone who has basic knowledge 
 [AWS cloud practitioner — A study guide
 ](https://medium.com/adventures-in-consumer-technology/aws-cloud-practitioner-a-study-guide-86f4c143c5ef)
 
-Pass without paying for online courses or practice papers.
+Pass without paying for online courses or practice paper.
+
+[How I passed the AWS Cloud Practitioner Exam](https://towardsdatascience.com/how-did-a-15-year-old-pass-the-aws-cloud-practioner-exam-6317ce6e609f)
