@@ -52,3 +52,7 @@ AWS Certified Cloud Practitioner is intended for anyone who has basic knowledge 
 Pass without paying for online courses or practice paper.
 
 [How I passed the AWS Cloud Practitioner Exam](https://towardsdatascience.com/how-did-a-15-year-old-pass-the-aws-cloud-practioner-exam-6317ce6e609f)
+
+[Route 53 Typical Exam Questions. AWS Solutions Architect Associate Complete Course](https://plazagonzalo.medium.com/route-53-solved-exam-questions-aws-solutions-architect-associate-b4d497299886)
+
+Route 53 Typical Exam Questions. AWS Solutions Architect Associate Complete Course
