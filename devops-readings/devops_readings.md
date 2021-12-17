@@ -145,3 +145,7 @@ I have been fortunate in my career to have had the perfect blend of experience t
 [Introduction to DevOps](https://phifertoo.medium.com/introduction-to-devops-cca34e3f4523)
 
 Whenever I hear DevOps, I think about deployments. Many people have different definitions and interpretations of DevOps. In my opinion, DevOps is simply a paradigm to improve the development lifecycle.
+
+[DevOps In Simple English](https://plazagonzalo.medium.com/elastic-load-balancers-342c1a14d69a)
+
+Shared responsibility among stakeholders is a key attribute of DevOps. When all parties are involved from conception through development, and throughout the lifetime of software they have an all-around knowledge of the whole process. This would help the developers improve logging and automate deployment better and adopt new automation tools and practices by engineers.
