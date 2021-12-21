@@ -10,3 +10,7 @@ Ansible is a simple, powerful, and agentless tool that simplifies the process of
 
 Ansible ad hoc commands are great for tasks you repeat rarely. For example, you could execute a quick one-liner in Ansible without writing a playbook. An ad hoc command looks like this:
 `ansible [pattern] -m [module] -a "[module options]"`
+
+[Ansible Cheatsheet](https://1littleendian.medium.com/ansible-cheatsheet-3a188b1a25d8)
+
+Ansible is a tool to automate system administration tasks. The Ansible Control Node is the machine used to control other machines; the Managed Node is the machine being controlled.
