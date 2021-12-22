@@ -149,3 +149,7 @@ Whenever I hear DevOps, I think about deployments. Many people have different de
 [DevOps In Simple English](https://plazagonzalo.medium.com/elastic-load-balancers-342c1a14d69a)
 
 Shared responsibility among stakeholders is a key attribute of DevOps. When all parties are involved from conception through development, and throughout the lifetime of software they have an all-around knowledge of the whole process. This would help the developers improve logging and automate deployment better and adopt new automation tools and practices by engineers.
+
+[DevOps: Beginners Guide](https://faun.pub/in-the-world-of-devops-c965d4dd2e27)
+
+When we hear DevOps, what comes to our mind? For easy understanding, let’s start from the word DevOps. The word “ DevOps “ is a combination of the term development and operations, which represents a collaborative or shared approach to the task performed by the company’s application development and IT operations team.
