@@ -99,3 +99,6 @@ A virtual private cloud (VPC) is an on-demand configurable pool of shared comput
 
 [HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform)
 
+[10 things I wish I knew before learning Terraform (Part 1)](https://medium.com/contino-engineering/10-things-i-wish-i-knew-before-learning-terraform-f13637a01aa6)
+
+With the rise of multi-cloud businesses are looking to reduce their risk profile by running their business critical systems across multiple cloud providers. At the very least, it makes sense to have the ability to reduce your dependency on certain cloud providers PaaS/SaaS offerings wherever possible.
