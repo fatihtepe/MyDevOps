@@ -153,3 +153,7 @@ Shared responsibility among stakeholders is a key attribute of DevOps. When all 
 [DevOps: Beginners Guide](https://faun.pub/in-the-world-of-devops-c965d4dd2e27)
 
 When we hear DevOps, what comes to our mind? For easy understanding, let’s start from the word DevOps. The word “ DevOps “ is a combination of the term development and operations, which represents a collaborative or shared approach to the task performed by the company’s application development and IT operations team.
+
+[The Best Infrastructure as Code Tools for 2021](https://medium.com/@gennovacap/the-best-infrastructure-as-code-tools-for-2021-4a049e7b8442)
+
+When it comes to cloud infrastructure, making something consistently replicable is extremely valuable for different reasons. Infrastructure as Code Tools can remove the manual process in a cloud environment with automation.
