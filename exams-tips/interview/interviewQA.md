@@ -74,3 +74,5 @@ Kubernetes
 
 
 [General DevOps Interview Questions](https://pradeep-sg406.medium.com/general-devops-interview-questions-5e34e646b9f5)
+
+[Devops Interview Questions and Answers](https://medium.com/@amar.gow1998/devops-interview-questions-and-answers-14b9a3d09702)
