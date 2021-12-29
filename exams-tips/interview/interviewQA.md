@@ -71,3 +71,6 @@ Kubernetes
 - You hosted the page on ECS, just a simple website, then someone click on that webpage how the data travel thru from the different AWS services communicate that ECS cluster
 
 - How is connect from my computer to ECS application and from application to my computer?
+
+
+[General DevOps Interview Questions](https://pradeep-sg406.medium.com/general-devops-interview-questions-5e34e646b9f5)
