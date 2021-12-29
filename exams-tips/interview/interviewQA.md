@@ -78,3 +78,5 @@ Kubernetes
 [Devops Interview Questions and Answers](https://medium.com/@amar.gow1998/devops-interview-questions-and-answers-14b9a3d09702)
 
 [Top DevOps Interview Questions You Must Prepare In 2022](https://www.edureka.co/blog/interview-questions/top-devops-interview-questions-2016/)
+
+[Top 85+ DevOps Interview Questions and Answers for 2022](https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions)
