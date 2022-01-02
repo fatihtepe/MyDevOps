@@ -246,3 +246,8 @@ The order of how I’m tackling these topics will follow this structure:
 * Why they exist
 * How to use it
 * Secure it
+
+
+[AWS IAM Policies and Policy Structure](https://alanblackmore.medium.com/aws-iam-policies-and-policy-structure-f1e6a1fb6bc)
+
+IAM AWS Identity and Access Management is a service that allows you to create and manage users, access credentials and policies within your AWS account.
