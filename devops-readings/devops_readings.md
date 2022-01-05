@@ -157,3 +157,7 @@ When we hear DevOps, what comes to our mind? For easy understanding, let’s sta
 [The Best Infrastructure as Code Tools for 2021](https://medium.com/@gennovacap/the-best-infrastructure-as-code-tools-for-2021-4a049e7b8442)
 
 When it comes to cloud infrastructure, making something consistently replicable is extremely valuable for different reasons. Infrastructure as Code Tools can remove the manual process in a cloud environment with automation.
+
+[Migrating Jenkins on AWS using Terraform](https://devunderslash.medium.com/migrating-jenkins-on-aws-using-terraform-2917590505f1)
+
+This is a rundown of how I recently moved one of our Jenkins instances that was sitting on a repurposed AWS EC2 instance doing multiple jobs and serving many other purposes. In order to ensure we had a dedicated server for our build, test and deploy pipeline, I decided to move this onto its’ own server using Terraform.
