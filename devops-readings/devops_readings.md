@@ -161,3 +161,7 @@ When it comes to cloud infrastructure, making something consistently replicable 
 [Migrating Jenkins on AWS using Terraform](https://devunderslash.medium.com/migrating-jenkins-on-aws-using-terraform-2917590505f1)
 
 This is a rundown of how I recently moved one of our Jenkins instances that was sitting on a repurposed AWS EC2 instance doing multiple jobs and serving many other purposes. In order to ensure we had a dedicated server for our build, test and deploy pipeline, I decided to move this onto its’ own server using Terraform.
+
+[DevOps Engineer is the new SysAdmin](https://medium.com/nerd-for-tech/devops-engineer-is-the-new-sysadmin-5bc46b86d413)
+
+DevOps Engineer seems to be a job title that causes a fair amount of confusion. Perhaps this is because it’s an anti-pattern. Apparently, a lot of companies think they can hire someone and suddenly become DevOps. They want to “change” without actually changing anything! (except to change the title of “SysAdmin” to “DevOps Engineer”). ;-)
