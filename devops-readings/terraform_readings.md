@@ -102,3 +102,7 @@ A virtual private cloud (VPC) is an on-demand configurable pool of shared comput
 [10 things I wish I knew before learning Terraform (Part 1)](https://medium.com/contino-engineering/10-things-i-wish-i-knew-before-learning-terraform-f13637a01aa6)
 
 With the rise of multi-cloud businesses are looking to reduce their risk profile by running their business critical systems across multiple cloud providers. At the very least, it makes sense to have the ability to reduce your dependency on certain cloud providers PaaS/SaaS offerings wherever possible.
+
+[Terraform vs. Cloudformation vs. AWS CDK](https://awstip.com/terraform-vs-cloudformation-vs-aws-cdk-6b86f5889f22)
+
+There are many ways to implement Infrastructure as Code. In this article I will examine three different technologies that you can use to deploy infrastructure on AWS
