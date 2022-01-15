@@ -106,3 +106,7 @@ k8s Ingress is an API object that manages external access to the services in a c
 [RancherOS](https://github.com/rancher/os/blob/master/README.md/#user-content-amazon)
 
 The smallest, easiest way to run Docker in production at scale. Everything in RancherOS is a container managed by Docker. This includes system services such as udev and rsyslog. RancherOS includes only the bare minimum amount of software needed to run Docker. This keeps the binary download of RancherOS very small. Everything else can be pulled in dynamically through Docker.
+
+[7 Kubernetes Companies to Watch in 2022](https://loft-sh.medium.com/7-kubernetes-companies-to-watch-in-2022-9321f84d8c60)
+
+The Kubernetes space continues to explode, and I thought I’d share a shortlist of some companies that I’ll be keeping an eye on this year.
