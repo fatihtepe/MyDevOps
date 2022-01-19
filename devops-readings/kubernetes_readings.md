@@ -110,3 +110,7 @@ The smallest, easiest way to run Docker in production at scale. Everything in Ra
 [7 Kubernetes Companies to Watch in 2022](https://loft-sh.medium.com/7-kubernetes-companies-to-watch-in-2022-9321f84d8c60)
 
 The Kubernetes space continues to explode, and I thought I’d share a shortlist of some companies that I’ll be keeping an eye on this year.
+
+[How to Design and Provision a Production-Ready EKS Cluster](https://itnext.io/how-to-design-and-provision-a-production-ready-eks-cluster-f24156ac29b2)
+
+A comprehensive guide to create and configure a production-grade Kubernetes cluster on AWS with Terraform, Helm, and other open-source tools.
