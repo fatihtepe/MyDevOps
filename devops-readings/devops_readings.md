@@ -165,3 +165,8 @@ This is a rundown of how I recently moved one of our Jenkins instances that was 
 [DevOps Engineer is the new SysAdmin](https://medium.com/nerd-for-tech/devops-engineer-is-the-new-sysadmin-5bc46b86d413)
 
 DevOps Engineer seems to be a job title that causes a fair amount of confusion. Perhaps this is because it’s an anti-pattern. Apparently, a lot of companies think they can hire someone and suddenly become DevOps. They want to “change” without actually changing anything! (except to change the title of “SysAdmin” to “DevOps Engineer”). ;-)
+
+
+[Migrating To Serverless — Big Business Benefits For Established Companies](https://towardsaws.com/migrating-to-serverless-big-business-benefits-for-established-companies-ee6e269e74b2)
+
+What is serverless? Serverless is a cloud computing model that was first introduced by AWS in 2014 (AWS Lambda is the market leader to this day). It abstracts away most of the server operations to the cloud provider so developers can only focus on writing code and shipping new features. Serverless adoption is rapidly growing and it’s mostly due to it’s promise of providing significant cost and time efficiency for technology companies.
