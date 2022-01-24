@@ -16,3 +16,7 @@ This is a step by step guide to configure ssh connection with your GitHub accoun
 [Is it possible to clone only part of a git project?](https://unix.stackexchange.com/questions/233327/is-it-possible-to-clone-only-part-of-a-git-project)
 
 You will end up downloading the entire history, so I don't see much benefit in it, but you can checkout specific parts using a "sparse" checkout.
+
+[How to Setup Branch Protection Rules](https://cycode.com/blog/how-to-setup-branch-protection-rules-2/)
+
+Branching is the cornerstone of cooperative work using Git. Developers utilize branches to work on the same source code repository in parallel. Generally speaking, when working with branches, there is one main branch in a repository from which various developers create their own additional, diverging branches. Once a developer’s project is done, they then merge their side branch back into the main branch.
