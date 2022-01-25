@@ -20,3 +20,7 @@ You will end up downloading the entire history, so I don't see much benefit in i
 [How to Setup Branch Protection Rules](https://cycode.com/blog/how-to-setup-branch-protection-rules-2/)
 
 Branching is the cornerstone of cooperative work using Git. Developers utilize branches to work on the same source code repository in parallel. Generally speaking, when working with branches, there is one main branch in a repository from which various developers create their own additional, diverging branches. Once a developer’s project is done, they then merge their side branch back into the main branch.
+
+[Git Rebase vs Git Merge](https://furkangulsen.medium.com/git-rebase-vs-git-merge-cfbe9e7ba2c5)
+
+If you are working with a single or small team, it will be more advantageous to use git rebase. But if you’re working with a big team, use git merge.
