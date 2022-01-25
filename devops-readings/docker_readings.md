@@ -24,3 +24,7 @@ Dockerfile is a text file that contains a list of commands that are used to buil
 [How to copy a file from a Docker container to the host](https://faun.pub/how-to-copy-a-file-from-a-docker-container-to-the-host-77370406c0c9)
 
 If you want to download a file from a Docker container, it’s simple with the `docker cp` command. But, if the container is inside a cluster of Docker machines, it could be more complicated…
+
+[How to Write a Good Dockerfile ?](https://iceburn.medium.com/how-to-write-a-good-dockerfile-41801b6fe5d7)
+
+Have you noticed that it takes a long time to build an image when using Docker, and have any doubts as to whether the created container is really good? Now let’s find out how to prevent security attacks and optimize Docker’s image build process.
