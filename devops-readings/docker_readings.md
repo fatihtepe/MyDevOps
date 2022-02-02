@@ -28,3 +28,7 @@ If you want to download a file from a Docker container, it’s simple with the `
 [How to Write a Good Dockerfile ?](https://iceburn.medium.com/how-to-write-a-good-dockerfile-41801b6fe5d7)
 
 Have you noticed that it takes a long time to build an image when using Docker, and have any doubts as to whether the created container is really good? Now let’s find out how to prevent security attacks and optimize Docker’s image build process.
+
+[How To Reduce Docker Image Size: 6 Optimization Methods](https://devopslearners.com/how-to-reduce-docker-image-size-6-optimization-methods-cbbdab1196a7)
+
+If you want to reduce docker image size, you need to use the standard best practices in building a Docker Image.
