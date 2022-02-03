@@ -1,0 +1,4 @@
+[The development of the SRE role in DevOps](https://hoedje.medium.com/the-development-of-the-sre-role-in-devops-88ab189958c0)
+
+In DevOps we connect development (Dev) with operations (Ops). Developers stand for “Change” — change, improvement and innovation. Operations stands for “Run” — stability, continuity and reliability. DevOps removes the barriers between development and operations, by focusing mainly on why this is necessary, and thereby explaining what needs to be done.
+How nice would it be if you use the mindset of the creative, innovative developer to further develop the reliability of operations? And voilà, that’s where the SRE, the Site Reliability Engineer, comes in as a “new” role to give substance to this. SRE is the implementation of how the DevOps philosophy is put into practice.
