@@ -114,3 +114,13 @@ The Kubernetes space continues to explode, and I thought I’d share a shortlist
 [How to Design and Provision a Production-Ready EKS Cluster](https://itnext.io/how-to-design-and-provision-a-production-ready-eks-cluster-f24156ac29b2)
 
 A comprehensive guide to create and configure a production-grade Kubernetes cluster on AWS with Terraform, Helm, and other open-source tools.
+
+[Kubernetes Pod Health Check -Liveness and Readiness Probe](https://devops4solutions.medium.com/kubernetes-pod-health-check-liveness-and-readiness-probe-1118a265c193)
+
+Probes/Health Checks
+It can be configured to check the health of the containers running in a pod.
+used to determine whether a container is running or ready to receive requests
+A probe/health check may return the following results:
+Success: The container passed the health check.
+Failure: The container failed the health check.
+Unknown: The health check failed for unknown reasons.
