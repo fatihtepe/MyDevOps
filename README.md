@@ -70,4 +70,11 @@ As a technical person, I fetch some regular basis tasks. There are tasks that we
 
 [Use a tool like Faker for creating mock data in your database](https://github.com/faker-ruby/faker)
 
+--Mix--------------
 
+We often need to go into the container to do some work, such as viewing logs, debugging, starting other processes, etc. There are two ways to enter a container: `attach` and `exec`.
+
+[Docker Attach vs Exec](https://medium.com/geekculture/docker-two-ways-to-get-into-the-container-cda926c75fe)
+The main differences between attach and exec are as follows:
+attach goes directly to the terminal of the container startup command and does not start a new process.
+exec opens a new terminal in the container and can start a new process.
