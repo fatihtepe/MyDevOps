@@ -14,3 +14,7 @@ Ansible ad hoc commands are great for tasks you repeat rarely. For example, you 
 [Ansible Cheatsheet](https://1littleendian.medium.com/ansible-cheatsheet-3a188b1a25d8)
 
 Ansible is a tool to automate system administration tasks. The Ansible Control Node is the machine used to control other machines; the Managed Node is the machine being controlled.
+
+[Getting Started with Ansible Roles](https://inshiya-nalawala211.medium.com/getting-started-with-ansible-roles-8ca0638db6a6)
+
+Ansible roles is the way you can separate your tasks, variables and related files in a nice file structure. The tasks for the end configuration to achieve is written in a separate file, associated variables in a separate file, the handlers to notify in a separate file and the files to copy in a different file. All of these are isolated but eventually make up a single transferable entity.
