@@ -106,3 +106,7 @@ With the rise of multi-cloud businesses are looking to reduce their risk profile
 [Terraform vs. Cloudformation vs. AWS CDK](https://awstip.com/terraform-vs-cloudformation-vs-aws-cdk-6b86f5889f22)
 
 There are many ways to implement Infrastructure as Code. In this article I will examine three different technologies that you can use to deploy infrastructure on AWS
+
+[Why Kubernetes + Terraform Is a Great idea](https://medium.com/@freek_mencke/why-kubernetes-terraform-is-a-great-idea-3e92cfc96699)
+
+Managing a Kubernetes cluster can be tough for multiple reasons. What would you do, for example, if you mess something up and the entire cluster breaks? It’s everyone’s nightmare. You may think that doesn’t happen, but Spotify destroyed 2 out of 3 of their production clusters. They gave a great talk at KubeCon & CloudNativeCon EU about this.
