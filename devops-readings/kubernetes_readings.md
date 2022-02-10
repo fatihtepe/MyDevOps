@@ -124,3 +124,7 @@ A probe/health check may return the following results:
 Success: The container passed the health check.
 Failure: The container failed the health check.
 Unknown: The health check failed for unknown reasons.
+
+[Simplify Troubleshooting your Kubernetes cluster with Komodor](https://anaisurl.com/simplify-troubleshooting/)
+
+Troubleshooting your Kubernetes Cluster and the resources within has never been this easy. This blog post provides an overview of Komodor; a new kind of platform.
