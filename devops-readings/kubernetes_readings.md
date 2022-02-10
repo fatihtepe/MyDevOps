@@ -128,3 +128,8 @@ Unknown: The health check failed for unknown reasons.
 [Simplify Troubleshooting your Kubernetes cluster with Komodor](https://anaisurl.com/simplify-troubleshooting/)
 
 Troubleshooting your Kubernetes Cluster and the resources within has never been this easy. This blog post provides an overview of Komodor; a new kind of platform.
+
+[Full Tutorial: Monitoring and Troubleshooting stack with Prometheus, Grafana, Loki and Komodor
+](https://anaisurl.medium.com/full-tutorial-monitoring-and-troubleshooting-stack-with-prometheus-grafana-loki-and-komodor-a0d600cd9a2e)
+
+I like to provide “real-world” examples to showcase the value of tools such as Komodor. In this scenario, we are going to have our Monitoring Stack with Prometheus, Grafana, and Loki installed on our cluster. Next, we are going to deploy an application and a client.
