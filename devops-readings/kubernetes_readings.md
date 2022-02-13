@@ -133,3 +133,9 @@ Troubleshooting your Kubernetes Cluster and the resources within has never been 
 ](https://anaisurl.medium.com/full-tutorial-monitoring-and-troubleshooting-stack-with-prometheus-grafana-loki-and-komodor-a0d600cd9a2e)
 
 I like to provide “real-world” examples to showcase the value of tools such as Komodor. In this scenario, we are going to have our Monitoring Stack with Prometheus, Grafana, and Loki installed on our cluster. Next, we are going to deploy an application and a client.
+
+[Kubernetes Shorts: Taints and Tolerations and why you should use it with NodeAffinity](https://medium.com/@afk_panda/kubernetes-shorts-taints-and-tolerations-and-why-you-should-use-it-with-nodeaffinity-af3f0a2bce47)
+
+- A Taint is a property applied to a node to enable it to run only specific Pods. Only a Pod which has a toleration to the specific taint is capable of being scheduled on the “tainted” Node
+- A Toleration is a property added to a Pod which enables it to run on specific tainted nodes.
+- NodeAffinity is added to a pod to make sure that a Pod is scheduled only on the node that matches the expression given in the Pod Spec.
