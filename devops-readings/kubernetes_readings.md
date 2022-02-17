@@ -139,3 +139,7 @@ I like to provide “real-world” examples to showcase the value of tools such 
 - A Taint is a property applied to a node to enable it to run only specific Pods. Only a Pod which has a toleration to the specific taint is capable of being scheduled on the “tainted” Node
 - A Toleration is a property added to a Pod which enables it to run on specific tainted nodes.
 - NodeAffinity is added to a pod to make sure that a Pod is scheduled only on the node that matches the expression given in the Pod Spec.
+
+[Kubernetes Resource Confirmation](https://iceburn.medium.com/kubernetes-resource-confirmation-84593eb64ff5)
+
+Setting up a pod in a Kubernetes cluster consumes resources, so even though the resource consumption of the pod / container is small, it is still necessary to monitor the resources. In actual operation, I think that it is common to monitor with Prometheus or another tool, but here I will summarize the confirmation method with the kubectl command.
