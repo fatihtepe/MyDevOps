@@ -251,3 +251,7 @@ The order of how I’m tackling these topics will follow this structure:
 [AWS IAM Policies and Policy Structure](https://alanblackmore.medium.com/aws-iam-policies-and-policy-structure-f1e6a1fb6bc)
 
 IAM AWS Identity and Access Management is a service that allows you to create and manage users, access credentials and policies within your AWS account.
+
+[Governance in the AWS Cloud: The Right Balance Between Agility and Safety](https://aws.amazon.com/blogs/apn/governance-in-the-aws-cloud-the-right-balance-between-agility-and-safety/)
+
+Governance is a mix of processes, people, and technologies that drive the cloud journey. In my experience, the principles of cloud governance and challenges organizations face are as follows.
