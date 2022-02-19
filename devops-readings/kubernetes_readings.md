@@ -143,3 +143,20 @@ I like to provide “real-world” examples to showcase the value of tools such 
 [Kubernetes Resource Confirmation](https://iceburn.medium.com/kubernetes-resource-confirmation-84593eb64ff5)
 
 Setting up a pod in a Kubernetes cluster consumes resources, so even though the resource consumption of the pod / container is small, it is still necessary to monitor the resources. In actual operation, I think that it is common to monitor with Prometheus or another tool, but here I will summarize the confirmation method with the kubectl command.
+
+
+[What is a Kubernetes Ephemeral Container?](https://devopslearners.com/what-is-a-kubernetes-ephemeral-container-aa8ab658755d)
+
+When it comes to container security, distroless or minimal base images reduce the attack surface.
+But the common concern in using a distroless or minimal image is that,
+How do I take an exec session to troubleshoot if something goes wrong in the application? Because these images won’t even have a shell or any utilities required for troubleshooting.
+Here is where ephemeral containers come in to picture.
+An ephemeral container is a concept of adding a container in an exiting pod for debugging purposes.
+Let’s say you have a pod running on a minimal base image with just the application binaries and dependencies. Something went wrong, and you need to debug.
+Since it is a stripped-down minimal base image without a shell, you cannot perform a “kubectl exec” command.
+Here, you can add a debug container to an existing pod in real-time. This debug container would have all the required utilities to debug the application. (shell, curl, custom utilities, etc)
+For example, let’s say you have a running pod named frontend, and you have an image with debug utilities called debug-image.
+The following command will add the debug-image container to the running frontend pod and take an exec session for debugging.
+```
+kubectl debug -it pods/frontend — image=debug-image
+```
