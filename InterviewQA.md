@@ -110,3 +110,35 @@ Storing application data in the image will unnecessarily increase the size of th
 It’s highly recommended to use the volume feature of the container runtimes to keep the image separate from the data.
 
 Docker containers support the implementation of CI/CD in development. Image size and build efficiency are important factors when overseeing and working with the [microservice architecture](https://phoenixnap.com/kb/introduction-to-microservices-architecture). This is why you should try to keep your Docker images small, by following the valuable advice outlined in this article.
+
+## [Kubernetes Architecture -In-Depth](https://bikramat.medium.com/kubernetes-architecture-in-depth-b5b909b10d77)
+Kubernetes Control Plane Components
+* `Kube API server`: Kubernetes API server is the central management entity that receives all requests for modifications of pods, services, replication controller, deployments, etc. `This is the only component that communicates with the etcd cluster.`
+
+- `ETCD`: ETCD is a simple, distributed key-value storage that is used to store the Kubernetes cluster data (such as a number of pods, their state, namespace, etc).
+
+- `Kube Controller Manager`: Controllers take care of actually running the cluster, and the Kubernetes controller-manager contains several controller functions in one. `Replication controller, Node Controller, Endpoints controller, ervice Account and Token controllers`
+
+- `Kube Scheduler`: The scheduler is responsible to schedule pods in different nodes based on resource utilization. It reads the service’s operational requirements and schedules it on the best fit node. `For example, if the application needs 1GB of memory and 2 CPU cores, then the pods for that application will be scheduled on a node with at least those resources.`
+
+Kubernetes Worker Components
+
+- `Kubelet`: It is a Kubernetes agent that runs on each node in the cluster that communicates with the control plane.The kubelet takes a set of PodSpecs that are provided by the API server and ensures that the containers described in those PodSpecs are running and healthy. This component also reports about the state and health of the containers.
+
+- `Kube Proxy`: Kube-proxy is a network proxy that runs on each node in your cluster. It also maintains network rules, allows network communication between services and pods, and is responsible for routing network traffic.
+
+- `Container Runtime Interface`: A container runtime, also known as a container engine, is a software component that is responsible for running containers. The kubelet communicates with the container engine through the standard Container Runtime Interface and pulls the docker image from the docker hub.
+
+How does Kubernetes work?
+
+![k8s](./img/k8s.png)
+
+- A user writes a YAML file for pod specification and submits it to the API server, the API server will check for the authentication of that user, whether the user is authorized to perform the requested actions or not.
+
+- Once the user validation is passed, the API server will store all the data related to pods and their specifications in the ETCD cluster.
+
+- The schedule continuously watches the new request from the API server and once it gets the request from the API server, the scheduler finds the appropriate healthy worker nodes that match the requirement.
+
+- The kubelet further communicates with the container engine through the standard Container Runtime Interface and pulls the docker image from the Docker hub and deploys the pods.
+
+- Controllers watch and monitor the deployed pods and in case of any failure, it reports to the API server.
