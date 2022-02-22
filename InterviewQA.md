@@ -182,3 +182,14 @@ docker inspect dafbfa86b404
 }],
 ```
 docker generates a random directory in `/var/lib/docker/volumes` as mount source.
+
+[Basic Helm Concepts](https://faun.pub/helm-command-cheat-sheet-by-m-sharma-488706ecf131)
+
+Helm is a Kubernetes package manager for deploying helm charts (collections of pre-configured Kubernetes application resources).
+
+Helm commands work with several Helm-related concepts. Understanding them makes the syntax easier to follow.
+
+- The most important `Helm concept` is a `chart`. A chart is a set of Kubernetes yaml manifests packaged together for easy manipulation. Helm charts make it possible to deploy a containerized application using a single command.
+- Charts are grouped in online collections called repositories. Each repository has a name and URL, making the charts easy to locate, download, and install.
+- `Helm Charts` Hub is a place to find, install and publish Kubernetes packages
+- A release is a single instance of a chart deployed in a Kubernetes cluster.
