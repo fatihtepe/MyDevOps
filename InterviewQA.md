@@ -142,3 +142,43 @@ How does Kubernetes work?
 - The kubelet further communicates with the container engine through the standard Container Runtime Interface and pulls the docker image from the Docker hub and deploys the pods.
 
 - Controllers watch and monitor the deployed pods and in case of any failure, it reports to the API server.
+
+
+[Bind Mount vs Docker Managed Volume](https://blog.devgenius.io/docker-data-volume-af83671e25af)
+
+![dockerVolume](./img/dockerVolume.png)
+In specific use, docker provides two types of volumes: `bind mount` and `docker managed volume`.
+- bind mount
+
+bind mount is to mount an existing directory or file on the host to the container.
+```
+docker run -d -p 80:80 -v ~/htdocs:/usr/local/apache2/htdocts:ro httpd
+```
+/usr/local/apache2/htdocs is where the httpd server stores static files. since this director already exists in the container, the original data will be hidden and replaced by data in ~/htdocs , which is persistent since it is located on the host.
+
+- docker managed volume
+
+`The biggest difference between docker-managed volume and bind mount is that there is no need to specify the mount source, just specify the mount point. Or take the httpd container as an example:
+`
+```
+docker run -d -p 80:80 -v /usr/local/apache2/htdocs httpd
+```
+We do this by telling docker that we need a data volume and mount it to /usr/local/apache2/htdocs. So where exactly is this data volume?
+
+This answer can be found in the container’s configuration information, execute the command: docker inspect .
+
+```
+docker inspect dafbfa86b404
+......
+"Mounts": [
+{
+  "Name": "fe43eaa90cfc3773ef535ec9e0a094d0ab0477ceb74ddebd57d3620ab50e85b1",
+  "Source": "/var/lib/docker/volumes/fe43eaa90cfc3773ef535ec9e0a094d0ab0477ceb74ddebd57d3620ab50e85b1/_data",
+  "Destination": "/usr/local/apache2/htdocs",
+  "Driver": "local",
+  "Mode": "",
+  "RW": true,
+  "Propagation": ""
+}],
+```
+docker generates a random directory in `/var/lib/docker/volumes` as mount source.
