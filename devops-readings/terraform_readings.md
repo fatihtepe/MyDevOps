@@ -110,3 +110,17 @@ There are many ways to implement Infrastructure as Code. In this article I will 
 [Why Kubernetes + Terraform Is a Great idea](https://medium.com/@freek_mencke/why-kubernetes-terraform-is-a-great-idea-3e92cfc96699)
 
 Managing a Kubernetes cluster can be tough for multiple reasons. What would you do, for example, if you mess something up and the entire cluster breaks? It’s everyone’s nightmare. You may think that doesn’t happen, but Spotify destroyed 2 out of 3 of their production clusters. They gave a great talk at KubeCon & CloudNativeCon EU about this.
+
+
+[5 Essential Terraform Tools To Use Everyday](https://betterprogramming.pub/5-essential-terraform-tools-to-use-everyday-e910a96e70d9)
+
+Terraform is now an essential infrastructure-as-code (IaC) tool to have in your toolbox as a DevOps practitioner. Such as many open-source projects, the community creates and shares many tools to make it more powerful.
+
+Sometimes there are too many tools and plugins around a project and you may feel lost. That’s why here, I’m going to present you 5 Terraform tools I use on a daily basis.
+
+They allow you to gain velocity and have even more fun working with Terraform:
+- Switching between different Terraform versions in your projects.
+- Detect errors and improve your code.
+- Generate automatically your code documentation.
+- Detecting potential security issues in your code.
+- Estimating cloud cost of your changes.
