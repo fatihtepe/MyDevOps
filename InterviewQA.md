@@ -196,3 +196,19 @@ Helm commands work with several Helm-related concepts. Understanding them makes 
 - Charts are grouped in online collections called repositories. Each repository has a name and URL, making the charts easy to locate, download, and install.
 - `Helm Charts` Hub is a place to find, install and publish Kubernetes packages
 - A release is a single instance of a chart deployed in a Kubernetes cluster.
+
+## [Jenkins Pipeline: Declarative vs. Scripted](https://medium.com/globant/jenkins-pipeline-declarative-vs-scripted-21f8688ee16a)
+
+- Jenkins pipeline comes with two types: Declarative and Scripted.
+
+- A CI/CD pipeline is an automated way of getting source code from version control systems to the users via different stations such as Version Control System, Code Inspection, Test Cases Execution, Build, Artifact Creation, Artifact Repository, and Deployment on the servers.
+
+- Pipelines are also referred to as a “Deployment-as-a-Code”.
+
+- Jenkins is based on DSL, which is Domain Specific Language. A domain-specific language is a language that is developed to solve specific domain problems.
+
+![jenkins](./img/jenkins.png)
+
+Conclusion:
+
+Both declarative and scripted pipelines are a great way of building deployment pipelines but nowadays, the declarative pipeline is a more preferred way to write a pipeline. You can leverage the benefit of scripted pipeline in a declarative pipeline using Script step but not vice versa.
