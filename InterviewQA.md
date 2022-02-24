@@ -111,7 +111,10 @@ It’s highly recommended to use the volume feature of the container runtimes to
 
 Docker containers support the implementation of CI/CD in development. Image size and build efficiency are important factors when overseeing and working with the [microservice architecture](https://phoenixnap.com/kb/introduction-to-microservices-architecture). This is why you should try to keep your Docker images small, by following the valuable advice outlined in this article.
 
+## [Kubernetes — Objects (Resources) Overview](https://medium.com/devops-mojo/kubernetes-objects-resources-overview-introduction-understanding-kubernetes-objects-24d7b47bb018)
 ## [Kubernetes Architecture -In-Depth](https://bikramat.medium.com/kubernetes-architecture-in-depth-b5b909b10d77)
+
+
 Kubernetes Control Plane Components
 * `Kube API server`: Kubernetes API server is the central management entity that receives all requests for modifications of pods, services, replication controller, deployments, etc. `This is the only component that communicates with the etcd cluster.`
 
