@@ -186,7 +186,7 @@ docker inspect dafbfa86b404
 ```
 docker generates a random directory in `/var/lib/docker/volumes` as mount source.
 
-[Basic Helm Concepts](https://faun.pub/helm-command-cheat-sheet-by-m-sharma-488706ecf131)
+## [Basic Helm Concepts](https://faun.pub/helm-command-cheat-sheet-by-m-sharma-488706ecf131)
 
 Helm is a Kubernetes package manager for deploying helm charts (collections of pre-configured Kubernetes application resources).
 
