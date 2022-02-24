@@ -196,3 +196,7 @@ Helm commands work with several Helm-related concepts. Understanding them makes 
 - Charts are grouped in online collections called repositories. Each repository has a name and URL, making the charts easy to locate, download, and install.
 - `Helm Charts` Hub is a place to find, install and publish Kubernetes packages
 - A release is a single instance of a chart deployed in a Kubernetes cluster.
+
+
+## [Jenkins Pipeline: Declarative vs. Scripted](https://medium.com/globant/jenkins-pipeline-declarative-vs-scripted-21f8688ee16a)
+
