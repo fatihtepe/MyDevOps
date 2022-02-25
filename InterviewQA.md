@@ -212,3 +212,26 @@ Helm commands work with several Helm-related concepts. Understanding them makes 
 Conclusion:
 
 Both declarative and scripted pipelines are a great way of building deployment pipelines but nowadays, the declarative pipeline is a more preferred way to write a pipeline. You can leverage the benefit of scripted pipeline in a declarative pipeline using Script step but not vice versa.
+
+
+[Git Clone vs Fork in GITHUB](https://chedyhammami.medium.com/git-clone-vs-fork-in-github-610f158d61e3)
+
+Let’s say you want to contribute to an open-source project;
+
+First, you Fork the project’s GitHub repository, now that you have it on your Github account, You Clone it using the commit “git clone”, now It’s on your local machine.
+
+Now you can apply any changes or edits you which to on the local copy on your machine, once you finished your edits you commit them and push them to your Github repo.
+
+Your Github repo now is synced with the changes made to your local machine’s copy, it’s time to merge those changes with the original “open-source project repo”.
+
+Changes made to the forked repository can be merged with the original repository via pull request. A Pull request knocks on the repository owner and tells them “Please check my changes and merge them if you like it”
+
+If they accept, the original repo will have your changes in it, and Congrats you just contributed to an Open-source project
+
+
+## [Manage IAM permissions](https://aws.amazon.com/iam/features/manage-permissions/)
+
+## [What is a CI/CD pipeline?](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)
+
+## [What is Jira used for?](https://www.atlassian.com/software/jira/guides/use-cases/what-is-jira-used-for)
+
