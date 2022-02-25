@@ -214,7 +214,7 @@ Conclusion:
 Both declarative and scripted pipelines are a great way of building deployment pipelines but nowadays, the declarative pipeline is a more preferred way to write a pipeline. You can leverage the benefit of scripted pipeline in a declarative pipeline using Script step but not vice versa.
 
 
-[Git Clone vs Fork in GITHUB](https://chedyhammami.medium.com/git-clone-vs-fork-in-github-610f158d61e3)
+## [Git Clone vs Fork in GITHUB](https://chedyhammami.medium.com/git-clone-vs-fork-in-github-610f158d61e3)
 
 Let’s say you want to contribute to an open-source project;
 
