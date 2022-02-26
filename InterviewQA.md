@@ -251,7 +251,11 @@ Example:
 
 However, try to keep all your instructions in exec form to prevent potential performance issues.
 
+## [How to Detect and Shut Down Unused Amazon EC2 Instances?](https://aws.amazon.com/about-aws/whats-new/2013/01/08/use-amazon-cloudwatch-to-detect-and-shut-down-unused-amazon-ec2-instances/#:~:text=To%20get%20started%2C%20first%20visit,%2C%20and%20you're%20done.)
 
+Stop or Terminate EC2 Instances That are Unused or Underutilized
+
+Amazon CloudWatch collects monitoring data for your AWS resources and applications. Amazon CloudWatch alarms help you react quickly to issues by emailing a notification to you or executing automated tasks when data values reach a threshold you set. Starting today, you can also set alarms that automatically stop or terminate Amazon EC2 instances that have gone unused or underutilized for too long. For example, a student who wants to stay within the AWS Free Usage Tier can set an alarm that automatically stops an instance once it has been left idle for an hour. Or, if you are a corporate IT administrator, you can create a group of alarms that first sends an email notification to developers whose instances have been underutilized for 8 hours, then terminates an instance and emails both of you if utilization doesn't improve after 24 hours.
 ## [Manage IAM permissions](https://aws.amazon.com/iam/features/manage-permissions/)
 
 ## [What is a CI/CD pipeline?](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)
