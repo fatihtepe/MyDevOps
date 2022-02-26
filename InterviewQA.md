@@ -231,7 +231,7 @@ If they accept, the original repo will have your changes in it, and Congrats you
 
 ## [DOCKER CMD vs ENTRYPOINT](https://aakash-shinghal.medium.com/docker-cmd-vs-entrypoint-b7e59b474b45)
 
-![cmdEntrypoint](./img/cmdEntrypoint.png)
+![cmdEntrypoint](./img/cmdentrypoint.png)
 
 Docker CMD and ENTRYPOINT can have two forms of instructions:
 
