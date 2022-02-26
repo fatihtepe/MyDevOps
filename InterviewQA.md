@@ -229,6 +229,29 @@ Changes made to the forked repository can be merged with the original repository
 If they accept, the original repo will have your changes in it, and Congrats you just contributed to an Open-source project
 
 
+## [DOCKER CMD vs ENTRYPOINT](https://aakash-shinghal.medium.com/docker-cmd-vs-entrypoint-b7e59b474b45)
+
+![cmdEntrypoint](./img/cmdEntrypoint.png)
+
+Docker CMD and ENTRYPOINT can have two forms of instructions:
+
+* Shell form
+- Exec Form
+
+The syntax for any command in shell form is <instruction> <command>
+
+The syntax for any command in exec form is <instruction> [“executable”, “paramter”]
+
+Example:
+
+- CMD echo "Hello World" (shell form)
+- CMD ["echo", "Hello World"] (exec form)
+- ENTRYPOINT echo "Hello World" (shell form)
+- ENTRYPOINT ["echo", "Hello World"] (exec form)
+
+However, try to keep all your instructions in exec form to prevent potential performance issues.
+
+
 ## [Manage IAM permissions](https://aws.amazon.com/iam/features/manage-permissions/)
 
 ## [What is a CI/CD pipeline?](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)
