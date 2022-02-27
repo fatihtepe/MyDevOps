@@ -13,6 +13,29 @@ The following command will add the debug-image container to the running frontend
 ```
 kubectl debug -it pods/frontend — image=debug-image
 ```
+
+## [Kubernetes Workflow for Absolute Beginners](https://technos.medium.com/kubernetes-workflow-bad346c54962)
+
+Whenever we are executing any command let’s say “kubectl create pod nginx”, how the pod request work in the backend and how a pod is got created:
+
+1. The request is authenticated first and validated.
+
+2. The “kube-api-server” creates a POD object, without assigning it to a node, updates the information of the newly created pod in “ETCD Cluster” and updated/shows us a message that a POD is got created.
+
+3. The “kube-scheduler” which is continually monitoring the “kube-api-server” gets to know that a new pod is got created with no node assigned to it.
+
+4. The “kube-scheduler” identifies the right node (according to pod resource requirement, pod/node affinity rules, labels & selectors etc.) to place the new POD and communicate back to the “kube-api-server” (with the information of the right node for the pod)
+
+5. The “kube-api-server” again updates the information to the “ETCD Cluster” received from “kube-scheduler”.
+
+6. The “kube-api-server” then passed the same information to the “kubelet” on the appropriate worker node identified by “kube-scheduler” in the 4th step.
+
+7. The “kubelet” then creates the pod on node and instructs the “Container Runtime Engine” to deploy the application image/container.
+
+8. Once done, the “kubelet” updates the information/status of the pod back to the “kube-api-server”.
+
+9. And “kube-api-server” updates the information/data back in the “ETCD Cluster”.
+
 ## [How To Reduce Docker Image Size: 6 Optimization Methods](https://devopslearners.com/how-to-reduce-docker-image-size-6-optimization-methods-cbbdab1196a7)
 
 ##
@@ -213,6 +236,9 @@ Conclusion:
 
 Both declarative and scripted pipelines are a great way of building deployment pipelines but nowadays, the declarative pipeline is a more preferred way to write a pipeline. You can leverage the benefit of scripted pipeline in a declarative pipeline using Script step but not vice versa.
 
+- Declarative Pipeline is a more recent feature of Jenkins Pipeline which provides richer syntactical features over Scripted Pipeline syntax. It is designed to make writing and reading Pipeline code easier.
+
+- Scripted Pipeline starts with node block and is expressed in groovy language. so programming flexibilities are available in the scripted pipeline
 
 ## [Git Clone vs Fork in GITHUB](https://chedyhammami.medium.com/git-clone-vs-fork-in-github-610f158d61e3)
 
