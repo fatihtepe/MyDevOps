@@ -286,5 +286,30 @@ Amazon CloudWatch collects monitoring data for your AWS resources and applicatio
 
 ## [What is a CI/CD pipeline?](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)
 
+What is CI?
+
+- You take the code and packaging up and giving the CI process.
+- CI process make sure the code is passed tests
+
+What is the CD?
+
+- Deploy the your code some system like VM, Container etc.
+
+C Delivery vs C Deployment
+
+- `Continuous Delivery` has some manual intervantion like after CI processes done you should click the button for CD process. OR someone sign in to Jenkins dashboard and click the button
+
+- `Continuous Deployment` is automatically deploy after CI process is done. There is no manual interaction. For example, when developer push code to GitHub CI processes start automataically after that CD process start.
+
+  - Eveyrhing is automatically there is no zero Human intervantion.
+
+[What Happens When You Hit Enter? CI/CD ](https://www.youtube.com/watch?v=zVpSnlTyrPc&t=381s)
+
+FORK - CLONE LOCAL - PUSH TO YOUR REPO - ASK FOR PR - IF PASS TESTING - MERGE
 ## [What is Jira used for?](https://www.atlassian.com/software/jira/guides/use-cases/what-is-jira-used-for)
+
+Jira is a tool developed to help teams for project management, bug tracking, and issue tracking. In simple terms, it is an issue tracker. Jira is widely used by big companies in software development and software testing.
+
+Jira has evolved into a powerful work management tool for all kinds of use cases, from requirements and test case management to agile software development.
+
 
