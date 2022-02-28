@@ -284,6 +284,8 @@ Stop or Terminate EC2 Instances That are Unused or Underutilized
 Amazon CloudWatch collects monitoring data for your AWS resources and applications. Amazon CloudWatch alarms help you react quickly to issues by emailing a notification to you or executing automated tasks when data values reach a threshold you set. Starting today, you can also set alarms that automatically stop or terminate Amazon EC2 instances that have gone unused or underutilized for too long. For example, a student who wants to stay within the AWS Free Usage Tier can set an alarm that automatically stops an instance once it has been left idle for an hour. Or, if you are a corporate IT administrator, you can create a group of alarms that first sends an email notification to developers whose instances have been underutilized for 8 hours, then terminates an instance and emails both of you if utilization doesn't improve after 24 hours.
 ## [Manage IAM permissions](https://aws.amazon.com/iam/features/manage-permissions/)
 
+AWS Identity and Access Management (IAM) provides fine-grained access control across all of AWS. With IAM, you can specify who can access which services and resources, and under which conditions. With IAM policies, you manage permissions to your workforce and systems to ensure least-privilege permissions.
+
 ## [What is a CI/CD pipeline?](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)
 
 What is CI?
