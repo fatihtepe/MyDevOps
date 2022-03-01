@@ -369,3 +369,9 @@ Three-tier architecture is a well-established software application architecture 
 
 Jenkins Job Builder takes simple descriptions of Jenkins jobs in YAML or JSON format and uses them to configure Jenkins. You can keep your job descriptions in human readable text format in a version control system to make changes and auditing easier. It also has a flexible template system, so creating many similarly configured jobs is easy.
 
+## [How To Use AWS Database Migration Service](https://faun.pub/how-to-use-aws-database-migration-service-b7eac6f8ebc)
+
+`AWS Database Migration Service` enables you to easily and securely transfer databases to AWS.
+During the migration, the source database remains fully operational, minimizing downtime for database-dependent applications.
+
+The AWS Database Migration Service allows you to migrate data between commercial and open-source databases.
