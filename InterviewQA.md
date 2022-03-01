@@ -299,11 +299,11 @@ What is the CD?
 
 C Delivery vs C Deployment
 
-- `Continuous Delivery` has some manual intervantion like after CI processes done you should click the button for CD process. OR someone sign in to Jenkins dashboard and click the button
+- `Continuous Delivery` has some manual intervention like after CI processes done you should click the button for CD process. OR someone sign in to Jenkins dashboard and click the button
 
-- `Continuous Deployment` is automatically deploy after CI process is done. There is no manual interaction. For example, when developer push code to GitHub CI processes start automataically after that CD process start.
+- `Continuous Deployment` is automatically deploy after CI process is done. There is no manual interaction. For example, when developer push code to GitHub CI processes start automatically after that CD process start.
 
-  - Eveyrhing is automatically there is no zero Human intervantion.
+  - Everything is automatically there is no zero Human intervention.
 
 [What Happens When You Hit Enter? CI/CD ](https://www.youtube.com/watch?v=zVpSnlTyrPc&t=381s)
 
@@ -314,4 +314,46 @@ Jira is a tool developed to help teams for project management, bug tracking, and
 
 Jira has evolved into a powerful work management tool for all kinds of use cases, from requirements and test case management to agile software development.
 
+## [Docker vs. Kubernetes](https://medium.com/@studioalpha95/docker-vs-kubernetes-37a2da0648fc)
+
+Some of the tools and terminology commonly used with Docker include the following:
+- `Docker Engine`: The runtime environment that allows developers to build and run containers.
+
+- `Docker file`: A simple text file that defines everything needed to build a Docker container image, such as OS network specifications and file locations. It’s essentially a list of commands that Docker Engine will run in order to assemble the image.
+
+- `Docker Compose`: A tool for defining and running multi-container applications. It creates a YAML file to specify which services are included in the application and can deploy and run containers with a single command via the Docker CLI.
+
+Key Kubernetes functions include the following:
+
+- `Deployment`: Schedules and automates container deployment across multiple compute nodes, which can be VMs or bare-metal servers.
+
+- `Service discovery and load balancing`: Exposes a container on the internet and employs load balancing when traffic spikes occur to maintain stability.
+
+- `Auto-scaling features`: Automatically starts up new containers to handle heavy loads, whether based on CPU usage, memory thresholds or custom metrics.
+
+- `Self-healing capabilities`: Restarts, replaces or reschedules containers when they fail or when nodes die, and kills containers that don’t respond to user-defined health checks.
+
+- `Automated rollouts and rollbacks`: Rolls out application changes and monitors application health for any issues, rolling back changes if something goes wrong.
+
+- `Storage orchestration`: Automatically mounts a persistent local or cloud storage system of choice as needed to reduce latency — and improve user experience.
+
+When do I use Kubernetes?
+
+1. When you want to monitor the health and performance of multiple containers.
+2. To deploy 1000s of containers in a single command.
+3. To detect fails/crashes of containers and fix them.
+4. To scale up and scale down the number of containers.
+5. For advanced networking between containers hosted across the cluster.
+6. To customize deployment of containers.
+7. To support all cloud service environments: many cloud providers offer built-in Kubernetes services.
+8. To upgrade all the containers in a single command.
+9. To roll back container updates if something goes wrong.
+10. To support a wide variety of authentication and authorization services.
+
+Docker and Kubernetes Work Together
+
+- Docker helps to “create” containers, and Kubernetes allows you to “manage” them at runtime.
+- Use Docker for packaging and shipping the app.
+- Employ Kubernetes to deploy and scale your app.
+- Startups or small companies with fewer containers usually can manage them without having to use Kubernetes, but as the companies grow, their infrastructure needs will rise; hence, the number of containers will increase, which can be difficult to manage. This is where Kubernetes comes into play.
 
