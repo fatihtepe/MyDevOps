@@ -305,6 +305,10 @@ C Delivery vs C Deployment
 
   - Everything is automatically there is no zero Human intervention.
 
+- CD or Continuous delivery is an extension of continuous integration since it deploys your changes on staging or production environment after the build stage is completed. This means that you can deploy your application at any time by clicking a button.
+
+- Most of the deployments happen manually because we require approval to push new stuff live and even on staging we deploy different branches multiple times a day.
+
 [What Happens When You Hit Enter? CI/CD ](https://www.youtube.com/watch?v=zVpSnlTyrPc&t=381s)
 
 FORK - CLONE LOCAL - PUSH TO YOUR REPO - ASK FOR PR - IF PASS TESTING - MERGE
@@ -356,4 +360,14 @@ Docker and Kubernetes Work Together
 - Use Docker for packaging and shipping the app.
 - Employ Kubernetes to deploy and scale your app.
 - Startups or small companies with fewer containers usually can manage them without having to use Kubernetes, but as the companies grow, their infrastructure needs will rise; hence, the number of containers will increase, which can be difficult to manage. This is where Kubernetes comes into play.
+
+## Could you explain your application in 3 tier?
+
+- Presentation tier (user interface)
+- Business tier( microservice)
+- Data tier (database)
+
+## [Jenkins Job Builder](https://jenkins-job-builder.readthedocs.io/en/latest/#jenkins-job-builder)
+
+Jenkins Job Builder takes simple descriptions of Jenkins jobs in YAML or JSON format and uses them to configure Jenkins. You can keep your job descriptions in human readable text format in a version control system to make changes and auditing easier. It also has a flexible template system, so creating many similarly configured jobs is easy.
 
