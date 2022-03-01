@@ -361,11 +361,9 @@ Docker and Kubernetes Work Together
 - Employ Kubernetes to deploy and scale your app.
 - Startups or small companies with fewer containers usually can manage them without having to use Kubernetes, but as the companies grow, their infrastructure needs will rise; hence, the number of containers will increase, which can be difficult to manage. This is where Kubernetes comes into play.
 
-## Could you explain your application in 3 tier?
+## [What is three-tier architecture?](https://www.ibm.com/cloud/learn/three-tier-architecture)
 
-- Presentation tier (user interface)
-- Business tier( microservice)
-- Data tier (database)
+Three-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers: the presentation tier, or user interface; the application tier, where data is processed; and the data tier, where the data associated with the application is stored and managed.
 
 ## [Jenkins Job Builder](https://jenkins-job-builder.readthedocs.io/en/latest/#jenkins-job-builder)
 
