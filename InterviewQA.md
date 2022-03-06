@@ -420,3 +420,23 @@ docker-compose pause <service name>
 docker-compose unpause <service name>
 ```
 
+## [Implementing VPC Architecture using Terraform](https://jaffarshaik.medium.com/implementing-vpc-architecture-using-terraform-3de6c42d7646)
+
+`Definition of VPC:`
+
+The Crispy Definition of VPC is Its a Isolated network.vpc has Several Components like NatGateway, InternetGateway, Routers, Elastic IP and Route tables ,Security Group and NACL.Lets see how to Create a vpc and configure its components.
+
+`IP addresses reserved by vpc
+there are 5 IP addresses reserved by vpc`
+
+10.0.0.0: Network address.
+
+10.0.0.1: Reserved by AWS for the VPC router.
+
+10.0.0.2: Reserved by AWS DNS Server
+
+10.0.0.3: Reserved by AWS for future use.
+
+10.0.0.255 Network broadcast address. AWS do not support broadcast in a VPC, therefore its reserve this address.
+
+`“one subnet can be associated with only one route table”.`
