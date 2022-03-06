@@ -381,3 +381,42 @@ The AWS Database Migration Service allows you to migrate data between commercial
 - `Prometheus` — the most famous metrics exporter. It collects and stores Traefik metrics (and can collect metrics of almost everything, including your app). In addition, you easily can set up alerting rules right in Prometheus.
 
 - `Grafana` — this tool visualizes metrics collected by Prometheus in pretty dashboards. Moreover, Grafana is a universal tool and it can visualize data from many sources, including, for example, SQL databases. And you can set up alerting rules in Grafana as well.
+
+
+## [15 Useful Docker Compose Commands For Everyday Development](https://medium.com/bb-tutorials-and-thoughts/15-useful-docker-compose-commands-for-everyday-development-8d5340d641c7)
+
+`Docker-compose is a tool that is used for multi-container applications in a single host. We can run multi containers as services in a single host with the help of docker-compose.yaml.`
+
+You can check the Docker and Docker-Compose versions after the installation with these commands
+```
+docker -v
+docker-compose -v
+```
+![](./img/d1.png) ![](./img/d2.png)
+
+```
+docker-compose build --no-cache
+docker-compose build --parallel
+docker-compose build --pull
+docker-compose up
+docker-compose up -d
+docker-compose up -d --no-recreate
+docker-compose up -d --build
+docker-compose images
+docker-compose images -q
+docker-compose ps
+docker-compose start <service name>
+docker-compose stop <service>
+docker-compose top
+docker-compose kill <service name>
+docker-compose kill -s SIGINT
+docker-compose rm <service name>
+docker-compose down
+docker-compose logs
+docker-compose exec -it nodejs-server /bin/sh
+docker-compose config
+docker-compose events --json
+docker-compose pause <service name>
+docker-compose unpause <service name>
+```
+
