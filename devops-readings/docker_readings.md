@@ -32,3 +32,17 @@ Have you noticed that it takes a long time to build an image when using Docker, 
 [How To Reduce Docker Image Size: 6 Optimization Methods](https://devopslearners.com/how-to-reduce-docker-image-size-6-optimization-methods-cbbdab1196a7)
 
 If you want to reduce docker image size, you need to use the standard best practices in building a Docker Image.
+
+[Cheatsheets for DevOps: Docker](https://brunodelb.medium.com/cheatsheet-of-docker-d33b37beb898)
+
+Containers
+
+Running container in the background:
+```
+docker run — publish <port-host>:<port-container> — detach <image>
+```
+
+Give a name to the container:
+```
+docker run -p <host-port>:<container-port> -d — name <container-name> <image-name>
+```
