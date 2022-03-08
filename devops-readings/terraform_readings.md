@@ -124,3 +124,12 @@ They allow you to gain velocity and have even more fun working with Terraform:
 - Generate automatically your code documentation.
 - Detecting potential security issues in your code.
 - Estimating cloud cost of your changes.
+
+[2 Best Tools For Terraform That You Need in 2022](https://faun.pub/2-best-tools-for-terraform-that-you-need-in-2022-55fb0147abd0)
+
+- Checkov
+Checkov looks for misconfigurations in cloud infrastructure settings before they’re deployed.
+
+- Brainboard
+Brainboard is a Terraform workflow manager and a visual cloud designer.
+It facilitates collaboration, ensures security, and speeds up automation.
