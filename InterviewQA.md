@@ -440,3 +440,7 @@ there are 5 IP addresses reserved by vpc`
 10.0.0.255 Network broadcast address. AWS do not support broadcast in a VPC, therefore its reserve this address.
 
 `“one subnet can be associated with only one route table”.`
+
+## [How to use files with Ansible](https://brunodelb.medium.com/how-to-use-files-with-ansible-86ea3e4f5ee7)
+
+![ansible](./img/ansible.png)
