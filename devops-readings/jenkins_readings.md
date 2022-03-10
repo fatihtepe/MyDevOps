@@ -46,3 +46,9 @@ What does it take to create a winning software company? The ability to deliver v
 
 [Running Terraform with Jenkins Pipelines](https://medium.com/@pb8226/running-terraform-with-jenkins-pipelines-f29a8cb861d4)
 
+
+[enkins Github Integration Processes](https://muhammederendemir.medium.com/jenkins-github-integration-processes-643463045dff)
+
+
+
+
