@@ -5,6 +5,8 @@ All about DevOps!
 
 ![cloud](./img/cloud.png)<br>
 
+[The DevOps Handbook - Cheat Sheed V1.0](The%20DevOps%20Handbook%20-%20Cheat%20Sheet%20V1.0.pdf)
+
 [Summary of DevOps Tools-edureka!](https://medium.com/edureka/devops-tutorial-89363dac9d3f)
 
 [Node Weekly](https://nodeweekly.com/issues/410)
