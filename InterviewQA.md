@@ -444,3 +444,17 @@ there are 5 IP addresses reserved by vpc`
 ## [How to use files with Ansible](https://brunodelb.medium.com/how-to-use-files-with-ansible-86ea3e4f5ee7)
 
 ![ansible](./img/ansible.png)
+
+
+## [10 best practices to secure your AWS environment](https://faun.pub/10-best-practices-to-secure-your-aws-environment-bea56df0cbc9)
+
+- Create Strong, Secure Password
+- Multi-Factor Authentication Everywhere
+- Remove credentials from your root account
+- Enable CloudTrail logging, store trails into separated account
+- Operate with IAM users, groups, and roles
+- Apply the Least Privilege Principle on IAM policies
+- Use AWS Organizations to set up your project accounts
+- Enable AWS Config rules and Billing Alarms
+- Apply security at all layers
+- Use temporary generated credentials
