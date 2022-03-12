@@ -9,6 +9,8 @@ All about DevOps!
 
 [Summarizing ‘The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations’](https://kevinczarzasty.medium.com/summarizing-the-devops-handbook-how-to-create-world-class-agility-reliability-and-security-in-86d8357d9995)
 
+[The Scrum Guide](./2020-Scrum-Guide-US.pdf)
+
 [Summary of DevOps Tools-edureka!](https://medium.com/edureka/devops-tutorial-89363dac9d3f)
 
 [Node Weekly](https://nodeweekly.com/issues/410)
