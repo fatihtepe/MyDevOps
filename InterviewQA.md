@@ -458,3 +458,20 @@ there are 5 IP addresses reserved by vpc`
 - Enable AWS Config rules and Billing Alarms
 - Apply security at all layers
 - Use temporary generated credentials
+
+
+## [Common Commands](https://medium.com/dark-roast-security/dark-side-123-intro-to-networking-commands-764c7ccdb47b)
+
+Start a shell on your favorite Linux distro and try the following commands:
+
+- ifconfig: It is similar to the windows command ipconfig. It shows basic network details such as IP addresses, broadcast address, mac address, configure a network interface, and much, much more
+- iwconfig: It is similar to the ifconfig command. It is more focused on wireless network interfaces.
+- ping: It’s used as a simple way to verify that a computer can communicate over the network with another computer or network device.
+- arp: It’s used to find IP to MAC address mappings. ARP, which stands for Address Resolution Protocol, is a protocol used to map a MAC address (also known as Hardware Address) to an IP address.
+- netstat: It delivers basic statistics on all network activities and informs users on which ports and addresses the corresponding connections (TCP, UDP) are running and which ports are open for tasks.
+
+- grep: Used to search a given pattern in a file specified by the user. Grep lets you enter a pattern of text and then it searches for this pattern within the text provided.
+- tr: The tr command is used for translating or deleting characters.
+- cat: cat is used to create a file, read the content of it, concatenate files and redirect output in terminal or files.
+- cut: Used to extract sections from each line of input — from a file.
+- echo: This command prints anything on the shell
