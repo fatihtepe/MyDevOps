@@ -84,3 +84,5 @@ We often need to go into the container to do some work, such as viewing logs, de
 The main differences between attach and exec are as follows:
 attach goes directly to the terminal of the container startup command and does not start a new process.
 exec opens a new terminal in the container and can start a new process.
+
+![](./img/md.png)
