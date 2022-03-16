@@ -86,3 +86,8 @@ attach goes directly to the terminal of the container startup command and does n
 exec opens a new terminal in the container and can start a new process.
 
 ![](./img/md.png)
+
+
+## [Gitlab vs Jenkins 2022: Ultimate Comparison](https://faun.pub/gitlab-vs-jenkins-2022-ultimate-comparison-ae245661f53e)
+
+![gitlab-jenkins](./img/gitlab-jenkins.png)
