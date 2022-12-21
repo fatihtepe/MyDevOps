@@ -43,3 +43,27 @@ aws ec2 describe-volumes --filters Name=encrypted,Values=false --output text --q
 ```
 aws ec2 describe-volumes --filters Name=encrypted,Values=false --output table --query 'Volumes[*].Attachments[].{VolumeID:VolumeId,InstanceID:InstanceId,Device:Device}'
 ```
+
+----------------------------------------------------------------
+
+### attached volumes info
+```
+aws ec2 describe-volumes --output table --query 'Volumes[*].Attachments[].{VolumeID:VolumeId,InstanceID:InstanceId,Device:Device,State:State}'
+```
+
+```
+aws ec2 describe-volumes --filters Name=status,Values=in-use --output table --query 'Volumes[*].Attachments[].{VolumeID:VolumeId,InstanceID:InstanceId,Device:Device,State:State}'
+```
+
+### To describe available volumes in a specific Availability Zone
+
+```
+aws ec2 describe-volumes \
+    --filters Name=status,Values=available Name=availability-zone,Values=us-east-1a
+```
+
+### available volumes information
+
+```
+aws ec2 describe-volumes --filters Name=status,Values=available
+```
