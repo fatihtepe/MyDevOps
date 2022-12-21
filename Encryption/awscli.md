@@ -2,10 +2,14 @@
 ```
 aws ec2 describe-volumes --region us-east-1 --query 'Volumes[*].VolumeId'
 ```
+```
+aws ec2 describe-volumes --region us-east-1 --query 'Volumes[*].Attachments[].{VolumeId:VolumeId,State:State}'
+```
 
 ```
-aws ec2 describe-volumes --region us-east-1 --volume-ids vol-05e3537d2a1da174b --query 'Volumes[*].state'
+aws ec2 describe-volumes --region us-east-1 --volume-ids vol-0c730ea526910dfc9 --query 'Volumes[*].Attachments[].{State:State}'
 ```
+
 
 ### This will list only unencrypted volumes and will display the VolumeId and the value of the application tag:
 
