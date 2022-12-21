@@ -38,3 +38,8 @@ aws ec2 describe-volumes --output text --query 'Volumes[*].Attachments[].{Volume
 ```
 aws ec2 describe-volumes --filters Name=encrypted,Values=false --output text --query 'Volumes[*].Attachments[].{VolumeID:VolumeId,InstanceID:InstanceId,Device:Device}'
 ```
+### --output table => Unencrypted Volumes Info
+
+```
+aws ec2 describe-volumes --filters Name=encrypted,Values=false --output table --query 'Volumes[*].Attachments[].{VolumeID:VolumeId,InstanceID:InstanceId,Device:Device}'
+```
