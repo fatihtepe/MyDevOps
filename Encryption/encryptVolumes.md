@@ -10,5 +10,7 @@
 
 [Encrypt an existing Kubernetes Persistent Volume running on AWS EKS](https://vimalpaliwal.medium.com/encrypt-an-existing-kubernetes-persistent-volume-running-on-aws-eks-f044268d1017)
 
+[How to encrypt an existing (unencrypted) EC2 EBS volume
+](https://levelup.gitconnected.com/how-to-encrypt-an-existing-unencrypted-ec2-ebs-volume-a2f0f5fca735)
 
 [Results for Encrypt Volumes-Medium](https://medium.com/search?q=Encrypt+Volumes)
