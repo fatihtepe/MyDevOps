@@ -14,3 +14,52 @@
 ](https://levelup.gitconnected.com/how-to-encrypt-an-existing-unencrypted-ec2-ebs-volume-a2f0f5fca735)
 
 [Results for Encrypt Volumes-Medium](https://medium.com/search?q=Encrypt+Volumes)
+
+
+## How to Encrypt root AWS EBS Root Volume
+
+![volenc](./img/1.png)
+
+![volenc](./img/2.png)
+
+![volenc](./img/3.png)
+
+![volenc](./img/4.png)
+
+![volenc](./img/5.png)
+
+![volenc](./img/6.png)
+
+![volenc](./img/7.png)
+
+![volenc](./img/8.png)
+
+
+
+```
+CHECK AVAILABILITY ZONE OF EC2 when you create volume from the snapshot of unencrypted volume. It has to be in same AZs of EC2
+```
+![volenc](./img/10.png)
+
+![volenc](./img/11.png)
+
+
+
+![volenc](./img/13.png)
+
+```
+GO TO EC2 INSTANCE AND SELECT THE STORAGE (VOLUME) OF INSTANCE AND THERE DETACH THE VOLUME.
+```
+![volenc](./img/14.png)
+
+![volenc](./img/15.png)
+
+![volenc](./img/16.png)
+
+![volenc](./img/17.png)
+
+![volenc](./img/18.png)
+
+![volenc](./img/19.png)
+
+![volenc](./img/20.png)
