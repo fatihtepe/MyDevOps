@@ -1,0 +1,22 @@
+---
+- name: Install SSM Agent on EC2 instance
+  hosts: localhost
+  gather_facts: false
+  tasks:
+  - name: Install SSM Agent package
+    command:
+      cmd: 'sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm'
+    register: ssm_install
+
+  - name: Start SSM Agent
+    service:
+      name: amazon-ssm-agent
+      state: started
+    register: ssm_service
+  - name: check ssm agent status
+    shell: 'systemctl is-active amazon-ssm-agent'
+    register: ssm_status
+    changed_when: false
+  - name: check ssm agent status
+    debug:
+      var: ssm_status
